@@ -49,6 +49,7 @@ function Statement() {
 function FeaturedReel({ items, currency }) {
   const section = useRef(null);
   const track = useRef(null);
+  const reel = useRef(null);
   const reduced = usePrefersReducedMotion();
   const [pinned, setPinned] = useState(false);
   useLayoutEffect(() => {
@@ -60,7 +61,9 @@ function FeaturedReel({ items, currency }) {
       const tween = gsap.to(track.current, {
         x: () => -distance(),
         ease: 'none',
-        scrollTrigger: { trigger: section.current, start: 'top top', end: () => `+=${distance()}`, scrub: 0.6, pin: true, invalidateOnRefresh: true },
+        // Solo se fija la fila de vehículos, centrada bajo la barra de navegación: el titular sigue
+        // de largo y las tarjetas (dimensionadas por la altura de pantalla) quedan completas.
+        scrollTrigger: { trigger: reel.current, start: 'center center+=34', end: () => `+=${distance()}`, scrub: 0.6, pin: true, invalidateOnRefresh: true },
       });
       return () => { tween.scrollTrigger?.kill(); tween.kill(); setPinned(false); };
     });
@@ -76,7 +79,7 @@ function FeaturedReel({ items, currency }) {
         </div>
         <p className="lede">Una selección curada del inventario. Cada ficha incluye código de inventario, estado y datos técnicos verificables.</p>
       </div>
-      <div className={`reel ${pinned ? '' : 'scrollable'}`}>
+      <div ref={reel} className={`reel ${pinned ? '' : 'scrollable'}`}>
         <div className="reel-track" ref={track}>
           {items.map((v, i) => (
             <Link key={v.id} to={`/vehiculo/${v.slug}`} className="reel-card">

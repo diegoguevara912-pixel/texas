@@ -21,7 +21,7 @@ WEBS es la empresa de soluciones digitales de Diego Guevara (Honduras): páginas
 
 ## Cómo empezar
 
-**Requisitos:** Git, Node.js 20 o superior y Python 3.11 o superior.
+**Requisitos:** Git, Node.js 22 o superior (el autolote lo necesita) y Python 3.11 o superior.
 
 ```bash
 git clone https://github.com/diegoguevara912-pixel/texas.git

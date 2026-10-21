@@ -380,3 +380,6 @@ legend { padding: 0 .5rem; font-size: .82rem; color: var(--titanium); }
   .vd-details { grid-column: 1; grid-row: 2; }
   .vd-aside { grid-column: 2; grid-row: 1 / span 2; align-self: start; }
 }
+/* Las tarjetas destacadas caben completas en pantallas bajas (laptops 768 px, ventanas reducidas). */
+.reel-card { width: min(78vw, 560px, calc((100svh - var(--nav-h) - 190px) * 4 / 3)); min-width: min(78vw, 300px); }
+.reel { padding-block: 12px; }

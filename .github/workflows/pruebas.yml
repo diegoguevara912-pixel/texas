@@ -34,13 +34,14 @@ jobs:
           python-version: ${{ matrix.python }}
       - run: python -m unittest discover -s tests -v
 
+  # better-sqlite3 13 (base de datos local) pide Node 22 o superior.
   autolote:
     name: autolote (Node ${{ matrix.node }})
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
-        node: [20, 22]
+        node: [22, 24]
     defaults:
       run:
         working-directory: productos/autolote-ultra-premium
