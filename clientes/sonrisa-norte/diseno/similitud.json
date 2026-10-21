@@ -1,0 +1,20 @@
+{
+  "slug": "sonrisa-norte",
+  "comparaciones": [
+    {
+      "puntuacion": 6,
+      "detalle": {
+        "paleta": 0.25,
+        "tipografias": 0.0,
+        "composicion": 0.0,
+        "hero": 0.0,
+        "secciones": 0.0,
+        "animaciones": 0.0,
+        "concepto": 0.0
+      },
+      "con": "equinsa-energy",
+      "nivel": "diferenciado"
+    }
+  ],
+  "veredicto": "diferenciado"
+}

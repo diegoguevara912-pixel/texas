@@ -1,0 +1,24 @@
+{
+  "_nota": "Formato de clients/<slug>/diseno/identidad.json. Lo escribe Claude en la etapa D. Lo usan el detector de similitud y Signature Studio. Los valores de abajo son solo un ejemplo de formato.",
+  "concepto": "Nombre del concepto elegido",
+  "idea": "La idea creativa en una frase",
+  "palabras_clave": ["precisión", "taller", "luz industrial"],
+  "personalidad": ["técnica", "cercana"],
+  "paleta": {
+    "fondo": "#F4F1EA",
+    "texto": "#1B1D1F",
+    "acento": "#0F6E5C",
+    "secundario": "#C9D3CF",
+    "foco": "#0F6E5C"
+  },
+  "tipografias": ["Fraunces", "IBM Plex Sans"],
+  "escala_tipografica": "1.25 (Major third), base 18px",
+  "composicion": "editorial-asimetrica",
+  "hero_tipo": "titular-gigante-con-foto-recortada",
+  "secciones": ["hero", "proceso", "servicios", "agenda", "contacto"],
+  "animaciones": ["revelado-escalonado", "linea-que-dibuja-el-proceso"],
+  "elemento_diferenciador": "Qué tiene este sitio que ningún otro del sector tiene",
+  "tratamiento_imagenes": "Fotografía con luz lateral dura, recortes en diagonal",
+  "iconografia": "Lucide trazo 1.5",
+  "reglas_uso": ["El acento solo en acciones", "Máximo dos pesos tipográficos por pantalla"]
+}

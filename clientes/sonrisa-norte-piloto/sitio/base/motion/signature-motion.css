@@ -1,0 +1,77 @@
+/* FÁBRICA WEB SIGNATURE · estilos del motor de movimiento 2.0.
+   Valores por defecto: cada sitio los redefine en tokens.css con su perfil de movimiento. */
+:root {
+  --mov-duracion: 800ms;
+  --mov-duracion-corta: 260ms;
+  --mov-curva: cubic-bezier(0.22, 1, 0.36, 1);
+  --mov-distancia: 22px;
+  --mov-escalonado: 80ms;
+  --mov-parallax: 0.1;
+}
+
+/* Transiciones entre páginas del mismo sitio (navegadores compatibles; los demás navegan normal). */
+@view-transition { navigation: auto; }
+::view-transition-old(root), ::view-transition-new(root) { animation-duration: var(--mov-duracion-corta); }
+
+/* Solo se oculta lo animable cuando el motor está activo: sin JS o con movimiento reducido todo se ve. */
+.sm-activo [data-sm="aparecer"] {
+  opacity: 0;
+  transform: translate3d(0, var(--mov-distancia), 0);
+  transition: opacity var(--mov-duracion) var(--mov-curva), transform var(--mov-duracion) var(--mov-curva), filter var(--mov-duracion) var(--mov-curva);
+}
+.sm-activo [data-sm="aparecer"][data-sm-desde="arriba"] { transform: translate3d(0, calc(var(--mov-distancia) * -1), 0); }
+.sm-activo [data-sm="aparecer"][data-sm-desde="izquierda"] { transform: translate3d(calc(var(--mov-distancia) * -1.4), 0, 0); }
+.sm-activo [data-sm="aparecer"][data-sm-desde="derecha"] { transform: translate3d(calc(var(--mov-distancia) * 1.4), 0, 0); }
+.sm-activo [data-sm="aparecer"][data-sm-desde="escala"] { transform: scale(0.94); }
+.sm-activo [data-sm="aparecer"][data-sm-desde="desenfoque"] { transform: none; filter: blur(12px); }
+.sm-activo [data-sm="aparecer"][data-sm-desde="nada"] { transform: none; }
+.sm-activo [data-sm="aparecer"].sm-visto { opacity: 1; transform: none; filter: none; }
+
+/* Texto dividido: cada pieza sube desde detrás de su propia máscara. */
+.sm-pieza { display: inline-block; overflow: hidden; vertical-align: top; padding-bottom: 0.08em; margin-bottom: -0.08em; }
+.sm-interior { display: inline-block; }
+.sm-activo [data-sm-dividido] .sm-interior {
+  transform: translate3d(0, 105%, 0);
+  transition: transform var(--mov-duracion) var(--mov-curva);
+  transition-delay: calc(var(--sm-i, 0) * var(--mov-escalonado));
+}
+.sm-activo [data-sm="letras"] .sm-interior { transition-delay: calc(var(--sm-i, 0) * var(--mov-escalonado) * 0.35); }
+.sm-activo [data-sm-dividido].sm-visto .sm-interior { transform: none; }
+
+/* Máscara: cortina que descubre imágenes o bloques. */
+[data-sm="mascara"] { overflow: hidden; }  /* el zoom interno no debe crear scroll horizontal */
+.sm-activo [data-sm="mascara"] { clip-path: inset(0 0 100% 0); transition: clip-path calc(var(--mov-duracion) * 1.3) var(--mov-curva); }
+.sm-activo [data-sm="mascara"][data-sm-desde="izquierda"] { clip-path: inset(0 100% 0 0); }
+.sm-activo [data-sm="mascara"][data-sm-desde="centro"] { clip-path: inset(50% 50% 50% 50%); }
+.sm-activo [data-sm="mascara"].sm-visto { clip-path: inset(0 0 0 0); }
+.sm-activo [data-sm="mascara"] img { transform: scale(1.12); transition: transform calc(var(--mov-duracion) * 2) var(--mov-curva); }
+.sm-activo [data-sm="mascara"].sm-visto img { transform: none; }
+
+/* Trazos SVG: se dibujan al verse, o según el progreso de scroll (--sm-trazo). */
+.sm-activo [data-sm="trazo"] :is(path, line, polyline, circle, rect) { stroke-dashoffset: var(--sm-largo); transition: stroke-dashoffset calc(var(--mov-duracion) * 2.2) var(--mov-curva); }
+.sm-activo [data-sm="trazo"].sm-trazado :is(path, line, polyline, circle, rect) { stroke-dashoffset: 0; }
+.sm-activo [data-sm="trazo"][data-sm-ligado="progreso"] :is(path, line, polyline, circle, rect) { transition: none; stroke-dashoffset: calc(var(--sm-largo) * var(--sm-trazo, 1)); }
+
+/* Parallax, magnetismo e inclinación: transformaciones directas, siempre suaves. */
+[data-sm="parallax"] { will-change: transform; }
+[data-sm="magnetico"], [data-sm="inclinar"] { transition: transform var(--mov-duracion-corta) var(--mov-curva); }
+
+/* Cambio de fondo por sección y cabecera que se oculta. */
+body { transition: background-color var(--mov-duracion) var(--mov-curva), color var(--mov-duracion) var(--mov-curva); }
+[data-sm="cabecera"] { transition: transform var(--mov-duracion-corta) var(--mov-curva), background-color var(--mov-duracion-corta); }
+[data-sm="cabecera"].sm-oculta { transform: translateY(-110%); }
+[data-sm="cabecera"]:focus-within { transform: none; }
+
+/* Escena fijada: el contenedor es alto, el interior se queda pegado y usa var(--sm-p) de 0 a 1.
+   <section class="sm-escena" data-sm="progreso" data-sm-modo="dentro" style="--sm-alto: 300vh">
+     <div class="sm-escena__fija"> … elementos que usan calc(var(--sm-p) * …) … </div>
+   </section> */
+.sm-escena { position: relative; height: var(--sm-alto, 250vh); }
+.sm-escena__fija { position: sticky; top: 0; height: 100vh; height: 100svh; overflow: hidden; }
+.sm-estatico .sm-escena, .sm-ligero .sm-escena { height: auto; }
+.sm-estatico .sm-escena__fija, .sm-ligero .sm-escena__fija { position: relative; height: auto; min-height: 100svh; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+  ::view-transition-group(*), ::view-transition-old(*), ::view-transition-new(*) { animation: none !important; }
+}

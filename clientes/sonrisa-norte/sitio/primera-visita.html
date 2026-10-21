@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="es-HN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Primera visita sin sorpresas · Sonrisa Norte (demo)</title>
+  <meta name="description" content="Cómo es una primera visita a Sonrisa Norte, qué llevar y un ejercicio de respiración de un minuto para llegar con calma a su cita dental.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="canonical" href="primera-visita.html">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_HN">
+  <meta property="og:title" content="Primera visita sin sorpresas · Sonrisa Norte (demo)">
+  <meta property="og:description" content="Paso a paso de la primera cita y un minuto para respirar. Sitio de demostración.">
+  <meta name="theme-color" content="#F6F1E7">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..500;1,9..144,300..500&amp;family=Figtree:wght@400;500;600&amp;display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..500;1,9..144,300..500&amp;family=Figtree:wght@400;500;600&amp;display=swap"></noscript>
+  <link rel="stylesheet" href="base/base.css">
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/sitio.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="assets/js/config.js" defer></script>
+  <script src="base/signature-motion.js" defer></script>
+  <script src="assets/js/sitio.js" defer></script>
+  <script src="assets/js/respirar.js" defer></script>
+</head>
+<body>
+  <a class="saltar-contenido" href="#contenido">Saltar al contenido</a>
+  <p class="aviso-demo"><span class="aviso-punto" aria-hidden="true"></span>Sitio de demostración<span class="aviso-largo">. Sonrisa Norte es una clínica ficticia: los contactos están pendientes y los procesos son ejemplos</span><span class="aviso-corto">: clínica ficticia, datos de ejemplo</span>.</p>
+
+  <header class="cabecera">
+    <div class="cabecera-interior">
+      <a class="logo" href="index.html" aria-label="Sonrisa Norte, inicio">
+        <svg class="logo-simbolo" viewBox="0 0 40 36" width="34" height="31" aria-hidden="true" focusable="false"><path d="M7 33V22C7 11 12.5 5 20 5s13 6 13 17v11" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M13.5 33v-9c0-7 2.8-11 6.5-11s6.5 4 6.5 11v9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity=".55"/><circle class="logo-punto" cx="20" cy="5" r="3"/></svg>
+        <span class="logo-texto">Sonrisa <em>Norte</em></span>
+      </a>
+      <div class="cabecera-acciones">
+        <button class="boton-indice" type="button" aria-expanded="false" aria-controls="indice"><span class="boton-indice-lineas" aria-hidden="true"></span>Índice</button>
+        <a class="boton boton-primario boton-cabecera" href="agenda.html">Agendar<span class="solo-escritorio">&nbsp;mi cita</span></a>
+      </div>
+    </div>
+    <nav id="indice" class="indice" aria-label="Índice del sitio">
+      <div class="indice-interior">
+        <button class="indice-cerrar" type="button">Cerrar <span aria-hidden="true">×</span></button>
+        <ul class="indice-lista">
+          <li style="--i:0"><a href="index.html"><span class="indice-nombre">Inicio</span><span class="indice-desc">El arco y qué le trae</span></a></li>
+          <li style="--i:1"><a href="tratamientos.html"><span class="indice-nombre">Tratamientos</span><span class="indice-desc">Limpieza, ortodoncia invisible, implantes y niños</span></a></li>
+          <li style="--i:2"><a href="primera-visita.html" aria-current="page"><span class="indice-nombre">Primera visita</span><span class="indice-desc">Paso a paso, y un minuto para respirar</span></a></li>
+          <li style="--i:3"><a href="agenda.html"><span class="indice-nombre">Agendar cita</span><span class="indice-desc">Tres decisiones y confirmación por WhatsApp</span></a></li>
+        </ul>
+        <p class="indice-pie"><a href="privacidad.html">Política de privacidad</a></p>
+      </div>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <header class="pagina-cabeza contenedor">
+      <p class="rotulo">Primera visita</p>
+      <h1>Su primera cita, <em>sin sorpresas</em>.</h1>
+      <p class="pagina-bajada">Si hace tiempo que no va al dentista, o si le da miedo, saber qué va a pasar ayuda. Este es el recorrido.</p>
+    </header>
+
+    <section class="recorrido contenedor" aria-labelledby="recorrido-titulo">
+      <h2 id="recorrido-titulo" class="solo-lectores">Recorrido de la primera visita</h2>
+      <p class="rotulo rotulo-demo">Recorrido de ejemplo · <span class="pendiente">[PENDIENTE: la clínica debe confirmar su protocolo]</span></p>
+      <ol class="pasos">
+        <li data-revelar>
+          <h3>Nos escribe</h3>
+          <p>Elige qué le trae, para quién y cuándo le conviene. La clínica confirma día y hora por WhatsApp.</p>
+        </li>
+        <li data-revelar data-revelar-retraso="100">
+          <h3>Conversamos primero</h3>
+          <p>Antes de revisar, hablamos: qué siente, qué le preocupa, si algo le da miedo. Nada empieza sin que usted lo sepa.</p>
+        </li>
+        <li data-revelar data-revelar-retraso="200">
+          <h3>Revisión con explicación</h3>
+          <p>Se revisan piezas y encías y se le muestra lo que se ve. Si se necesita un estudio, se le dice para qué sirve.</p>
+        </li>
+        <li data-revelar data-revelar-retraso="300">
+          <h3>Plan y costo, antes de empezar</h3>
+          <p>Recibe las opciones, los tiempos y los costos. Usted decide si empieza ese día, otro día o no empieza.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="antes contenedor" aria-labelledby="antes-titulo">
+      <div class="antes-texto">
+        <h2 id="antes-titulo">Antes de venir</h2>
+        <ul class="lista-check">
+          <li>La lista de medicamentos que toma, si toma alguno.</li>
+          <li>Radiografías o estudios dentales anteriores, si los tiene.</li>
+          <li>Si viene con un niño o niña: su juguete o peluche favorito ayuda.</li>
+          <li>Llegar unos minutos antes para hacerlo sin prisa.</li>
+        </ul>
+      </div>
+
+      <div class="respirar" data-respirar aria-labelledby="respirar-titulo" role="region">
+        <h2 id="respirar-titulo">Un minuto para respirar</h2>
+        <p class="respirar-intro">Para la sala de espera, o para ahora. Inhale cuatro segundos, exhale seis. Seis veces.</p>
+        <div class="respirar-circulo" aria-hidden="true"><span class="respirar-nucleo"></span></div>
+        <p class="respirar-estado" aria-live="polite">Cuando quiera, empiece.</p>
+        <button class="boton boton-secundario" type="button" data-respirar-boton>Empezar</button>
+      </div>
+    </section>
+
+    <section class="donde contenedor" aria-labelledby="donde-titulo">
+      <h2 id="donde-titulo">Dónde y cuándo</h2>
+      <dl class="ficha ficha-ancha">
+        <div><dt>Dirección</dt><dd><span class="pendiente">[PENDIENTE: dirección exacta en San Pedro Sula y enlace de Google Maps]</span></dd></div>
+        <div><dt>Horario</dt><dd><span class="pendiente">[PENDIENTE: días y horas de atención]</span></dd></div>
+        <div><dt>Quién le atiende</dt><dd><span class="pendiente">[PENDIENTE: nombres de los odontólogos, especialidad y número de colegiación]</span></dd></div>
+        <div><dt>Estacionamiento y acceso</dt><dd><span class="pendiente">[PENDIENTE: confirmar]</span></dd></div>
+      </dl>
+      <a class="boton boton-primario" href="agenda.html">Agendar mi primera cita</a>
+    </section>
+  </main>
+
+  <footer class="cierre">
+    <div class="contenedor">
+      <p class="cierre-frase">Le esperamos <em>con calma</em>.</p>
+      <dl class="cierre-datos">
+        <div><dt>Dirección</dt><dd><span class="pendiente">[PENDIENTE: dirección en San Pedro Sula]</span></dd></div>
+        <div><dt>Horario</dt><dd><span class="pendiente">[PENDIENTE: días y horas de atención]</span></dd></div>
+        <div><dt>WhatsApp</dt><dd><span class="pendiente">[PENDIENTE: número]</span></dd></div>
+      </dl>
+      <nav class="cierre-nav" aria-label="Pie de página">
+        <a href="tratamientos.html">Tratamientos</a>
+        <a href="primera-visita.html" aria-current="page">Primera visita</a>
+        <a href="agenda.html">Agendar cita</a>
+        <a href="privacidad.html">Privacidad</a>
+      </nav>
+      <p class="cierre-legal">Sonrisa Norte es una clínica ficticia creada como demostración por Fábrica Web Signature. Logotipo e ilustraciones: propuesta original.</p>
+    </div>
+  </footer>
+
+  <a class="wa-flotante" href="agenda.html" data-wa-chat aria-label="Escribir por WhatsApp">
+    <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M4.5 19.5l1.2-3.6A7.8 7.8 0 1 1 8.4 18.6z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9.2 9.1c.3 2.2 2 4.1 4.6 5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+    <span class="wa-texto">WhatsApp</span>
+  </a>
+</body>
+</html>

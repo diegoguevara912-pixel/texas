@@ -1,0 +1,497 @@
+{
+  "slug": "sonrisa-norte-piloto",
+  "huella_brief": "9f67fe55156cd896",
+  "investigacion_reutilizable": false,
+  "paletas": {
+    "origen": "colores de marca del brief: #5E7D6A, #F6F1E7, #C9785C",
+    "colores_marca": [
+      "#5E7D6A",
+      "#F6F1E7",
+      "#C9785C"
+    ],
+    "sector": {
+      "habituales": [
+        190,
+        210,
+        160
+      ],
+      "nota": "En salud predominan azules y verdes fríos: diferenciarse con neutros cálidos o un acento inesperado sin perder la sensación de higiene."
+    },
+    "propuestas": [
+      {
+        "nombre": "A · Marca protagonista",
+        "enfoque": "Claro y sereno; el color de marca conduce las acciones.",
+        "modo": "claro",
+        "porque": "Máxima coherencia con la marca y lectura cómoda; riesgo: puede verse contenida si no hay imágenes fuertes.",
+        "colores": {
+          "primario": "#5E7D6A",
+          "secundario": "#C9785C",
+          "acento": "#1F8B89",
+          "fondo": "#F6F1E7",
+          "superficie_1": "#EDE7DA",
+          "superficie_2": "#E3DBCC",
+          "superficie_3": "#D6CDBB",
+          "texto": "#101E16",
+          "texto_suave": "#425148",
+          "enlace": "#547260",
+          "borde": "#B4C2B9",
+          "foco": "#1F8B89"
+        },
+        "estados": {
+          "exito": "#2A794C",
+          "aviso": "#966107",
+          "error": "#B3261E",
+          "info": "#2457A6"
+        },
+        "cta": {
+          "fondo": "#5B7967",
+          "texto": "#F6FCF8",
+          "hover": "#4A6856",
+          "secundario_borde": "#5E7D6A"
+        },
+        "contrastes": [
+          {
+            "par": "texto sobre fondo",
+            "a": "#101E16",
+            "b": "#F6F1E7",
+            "ratio": 15.3,
+            "minimo": 4.5,
+            "cumple": true
+          },
+          {
+            "par": "texto suave sobre fondo",
+            "a": "#425148",
+            "b": "#F6F1E7",
+            "ratio": 7.46,
+            "minimo": 4.5,
+            "cumple": true
+          },
+          {
+            "par": "texto sobre superficie 2",
+            "a": "#101E16",
+            "b": "#E3DBCC",
+            "ratio": 12.52,
+            "minimo": 4.5,
+            "cumple": true
+          },
+          {
+            "par": "enlace sobre fondo",
+            "a": "#547260",
+            "b": "#F6F1E7",
+            "ratio": 4.72,
+            "minimo": 4.5,
+            "cumple": true
+          },
+          {
+            "par": "texto del botón principal",
+            "a": "#F6FCF8",
+            "b": "#5B7967",
+            "ratio": 4.62,
+            "minimo": 4.5,
+            "cumple": true
+          },
+          {
+            "par": "botón principal contra el fondo",
+            "a": "#5B7967",
+            "b": "#F6F1E7",
+            "ratio": 4.26,
+            "minimo": 3.0,
+            "cumple": true
+          },
+          {
+            "par": "anillo de foco contra el fondo",
+            "a": "#1F8B89",
+            "b": "#F6F1E7",
+            "ratio": 3.65,
+            "minimo": 3.0,
+            "cumple": true
+          },
+          {
+            "par": "estado exito",
+            "a": "#2A794C",
+            "b": "#F6F1E7",
+            "ratio": 4.74,
+            "minimo": 4.5,
+            "cumple": true
+          },
+          {
+            "par": "estado aviso",
+            "a": "#966107",
+            "b": "#F6F1E7",
+            "ratio": 4.65,
+            "minimo": 4.5,
+            "cumple": true
+          },
+          {
+            "par": "estado error",
+            "a": "#B3261E",
+            "b": "#F6F1E7",
+            "ratio": 5.81,
+            "minimo": 4.5,
+            "cumple": true
+          },
+          {
+            "par": "estado info",
+            "a": "#2457A6",
+            "b": "#F6F1E7",
+            "ratio": 6.24,
+            "minimo": 4.5,
+            "cumple": true
+          }
+        ],
+        "cumple_aa": true
+      },
+      {
+        "nombre": "B · Contraste nocturno",
+        "enfoque": "Fondo profundo teñido del tono de marca, textos claros y un acento luminoso.",
+        "modo": "oscuro",
+        "porque": "Más dramática y cinematográfica, da profundidad a la fotografía; riesgo: menos cálida para sectores de confianza cotidiana.",
+        "colores": {
+          "primario": "#5E7D6A",
+          "secundario": "#C9785C",
+          "acento": "#FC9CBE",
+          "fondo": "#06130B",
+          "superficie_1": "#0E1F15",
+          "superficie_2": "#172C20",
+          "superficie_3": "#233C2D",
+          "texto": "#ECF4EF",
+          "texto_suave": "#B4C2B9",
+          "enlace": "#FC9CBE",
+          "borde": "#3F4B43",
+          "foco": "#FC9CBE"
+        },
+        "estados": {
+          "exito": "#3E8C5D",
+          "aviso": "#AD7112",
+          "error": "#D94D40",
+          "info": "#477BCD"
+        },
+        "cta": {
+          "fondo": "#FC9CBE",
+          "texto": "#1E1216",
+          "hover": "#FDBCD1",
+          "secundario_borde": "#ECF4EF"
+        },
+        "contrastes": [
+          {
+            "par": "texto sobre fondo",
+            "a": "#ECF4EF",
+            "b": "#06130B",
+            "ratio": 16.96,
+            "minimo": 4.5,
+            "cumple": true
+          },
+          {
+            "par": "texto suave sobre fondo",
+            "a": "#B4C2B9",
+            "b": "#06130B",
+            "ratio": 10.27,
+            "minimo": 4.5,
+            "cumple": true
+          },
+          {
+            "par": "texto sobre superficie 2",
+            "a": "#ECF4EF",
+            "b": "#172C20",
+            "ratio": 13.23,
+            "minimo": 4.5,
+            "cumple": true
+          },
+          {
+            "par": "enlace sobre fondo",
+            "a": "#FC9CBE",
+            "b": "#06130B",
+            "ratio": 9.62,
+            "minimo": 4.5,
+            "cumple": true
+          },
+          {
+            "par": "texto del botón principal",
+            "a": "#1E1216",
+            "b": "#FC9CBE",
+            "ratio": 9.22,
+            "minimo": 4.5,
+            "cumple": true
+          },
+          {
+            "par": "botón principal contra el fondo",
+            "a": "#FC9CBE",
+            "b": "#06130B",
+            "ratio": 9.62,
+            "minimo": 3.0,
+            "cumple": true
+          },
+          {
+            "par": "anillo de foco contra el fondo",
+            "a": "#FC9CBE",
+            "b": "#06130B",
+            "ratio": 9.62,
+            "minimo": 3.0,
+            "cumple": true
+          },
+          {
+            "par": "estado exito",
+            "a": "#3E8C5D",
+            "b": "#06130B",
+            "ratio": 4.63,
+            "minimo": 4.5,
+            "cumple": true
+          },
+          {
+            "par": "estado aviso",
+            "a": "#AD7112",
+            "b": "#06130B",
+            "ratio": 4.66,
+            "minimo": 4.5,
+            "cumple": true
+          },
+          {
+            "par": "estado error",
+            "a": "#D94D40",
+            "b": "#06130B",
+            "ratio": 4.6,
+            "minimo": 4.5,
+            "cumple": true
+          },
+          {
+            "par": "estado info",
+            "a": "#477BCD",
+            "b": "#06130B",
+            "ratio": 4.51,
+            "minimo": 4.5,
+            "cumple": true
+          }
+        ],
+        "cumple_aa": true
+      },
+      {
+        "nombre": "C · Acento inesperado",
+        "enfoque": "Neutros cálidos con un acento complementario que guía la mirada a la acción.",
+        "modo": "claro",
+        "porque": "Diferencia frente al sector y jerarquía clara de la llamada a la acción; riesgo: el acento debe usarse con disciplina.",
+        "colores": {
+          "primario": "#2D4A39",
+          "secundario": "#C9785C",
+          "acento": "#9A71BE",
+          "fondo": "#F1F9F4",
+          "superficie_1": "#E4F1E8",
+          "superficie_2": "#D4E7DB",
+          "superficie_3": "#C2D7C9",
+          "texto": "#101E16",
+          "texto_suave": "#425148",
+          "enlace": "#2D4A39",
+          "borde": "#B4C2B9",
+          "foco": "#9A71BE"
+        },
+        "estados": {
+          "exito": "#2E7D4F",
+          "aviso": "#9A650F",
+          "error": "#B3261E",
+          "info": "#2457A6"
+        },
+        "cta": {
+          "fondo": "#2D4A39",
+          "texto": "#F6FCF8",
+          "hover": "#1D3A2A",
+          "secundario_borde": "#2D4A39"
+        },
+        "contrastes": [
+          {
+            "par": "texto sobre fondo",
+            "a": "#101E16",
+            "b": "#F1F9F4",
+            "ratio": 16.07,
+            "minimo": 4.5,
+            "cumple": true
+          },
+          {
+            "par": "texto suave sobre fondo",
+            "a": "#425148",
+            "b": "#F1F9F4",
+            "ratio": 7.83,
+            "minimo": 4.5,
+            "cumple": true
+          },
+          {
+            "par": "texto sobre superficie 2",
+            "a": "#101E16",
+            "b": "#D4E7DB",
+            "ratio": 13.33,
+            "minimo": 4.5,
+            "cumple": true
+          },
+          {
+            "par": "enlace sobre fondo",
+            "a": "#2D4A39",
+            "b": "#F1F9F4",
+            "ratio": 9.11,
+            "minimo": 4.5,
+            "cumple": true
+          },
+          {
+            "par": "texto del botón principal",
+            "a": "#F6FCF8",
+            "b": "#2D4A39",
+            "ratio": 9.39,
+            "minimo": 4.5,
+            "cumple": true
+          },
+          {
+            "par": "botón principal contra el fondo",
+            "a": "#2D4A39",
+            "b": "#F1F9F4",
+            "ratio": 9.11,
+            "minimo": 3.0,
+            "cumple": true
+          },
+          {
+            "par": "anillo de foco contra el fondo",
+            "a": "#9A71BE",
+            "b": "#F1F9F4",
+            "ratio": 3.58,
+            "minimo": 3.0,
+            "cumple": true
+          },
+          {
+            "par": "estado exito",
+            "a": "#2E7D4F",
+            "b": "#F1F9F4",
+            "ratio": 4.71,
+            "minimo": 4.5,
+            "cumple": true
+          },
+          {
+            "par": "estado aviso",
+            "a": "#9A650F",
+            "b": "#F1F9F4",
+            "ratio": 4.62,
+            "minimo": 4.5,
+            "cumple": true
+          },
+          {
+            "par": "estado error",
+            "a": "#B3261E",
+            "b": "#F1F9F4",
+            "ratio": 6.1,
+            "minimo": 4.5,
+            "cumple": true
+          },
+          {
+            "par": "estado info",
+            "a": "#2457A6",
+            "b": "#F1F9F4",
+            "ratio": 6.56,
+            "minimo": 4.5,
+            "cumple": true
+          }
+        ],
+        "cumple_aa": true
+      }
+    ],
+    "nota": "Las asociaciones color-emoción son HIPÓTESIS de diseño (dependen de cultura, sector y experiencia previa). Validar con usuarios o analítica cuando existan datos."
+  },
+  "tipografia": {
+    "pedidas_por_diego": {
+      "tipografia_principal": "Fraunces",
+      "tipografia_secundaria": "Figtree"
+    },
+    "obligatorio": true,
+    "propuestas": [
+      {
+        "display": "Playfair Display",
+        "texto": "Nunito Sans",
+        "licencias": "OFL / OFL (Google Fonts)",
+        "estilo": "Editorial clásico (serif) + Humanista y cercano",
+        "escala": 1.333,
+        "repetida_en_otro_proyecto": false
+      },
+      {
+        "display": "Space Grotesk",
+        "texto": "IBM Plex Sans",
+        "licencias": "OFL / OFL (Google Fonts)",
+        "estilo": "Técnico y preciso + Técnico y preciso",
+        "escala": 1.25,
+        "repetida_en_otro_proyecto": false
+      },
+      {
+        "display": "Manrope",
+        "texto": "Geist",
+        "licencias": "OFL / OFL (Google Fonts)",
+        "estilo": "Moderno geométrico + Técnico y preciso",
+        "escala": 1.25,
+        "repetida_en_otro_proyecto": false
+      }
+    ],
+    "regla": "Diego definió tipografía: es OBLIGATORIO respetarla; las propuestas solo sirven para roles que no definió.",
+    "fuentes_ya_usadas_en_la_fabrica": [
+      "figtree",
+      "fraunces",
+      "sora",
+      "source sans 3"
+    ]
+  },
+  "movimiento": {
+    "perfil": "editorial-lento",
+    "para": "arquitectura, lujo, arte, hoteles boutique",
+    "duracion": 1100,
+    "duracion_corta": 380,
+    "curva": "cubic-bezier(0.16, 1, 0.3, 1)",
+    "distancia": 28,
+    "escalonado": 110,
+    "parallax": 0.12,
+    "intensidad": "media",
+    "escenas": [
+      "revelado tipográfico por líneas",
+      "imagen que se descubre con máscara",
+      "transición de fondo entre secciones"
+    ],
+    "alternativas": [
+      "sereno-preciso",
+      "tecnico-dinamico",
+      "cinematografico",
+      "vivaz-cercano"
+    ],
+    "css": "  --mov-duracion: 1100ms;\n  --mov-duracion-corta: 380ms;\n  --mov-curva: cubic-bezier(0.16, 1, 0.3, 1);\n  --mov-distancia: 28px;\n  --mov-escalonado: 110ms;\n  --mov-parallax: 0.12;"
+  },
+  "evitar_repetir": {
+    "heroes": [
+      "titular-editorial-con-arco-dental-interactivo",
+      "titular-izquierda-con-plano-animado-sol-biogas"
+    ],
+    "composiciones": [
+      "editorial-asimetrica-con-ilustracion-viva",
+      "retícula-12-alineada-izquierda"
+    ],
+    "fuentes": [
+      "Figtree",
+      "Fraunces",
+      "Sora",
+      "Source Sans 3"
+    ],
+    "tonos": [
+      255,
+      161,
+      255,
+      157,
+      256,
+      158,
+      158,
+      158,
+      40
+    ],
+    "animaciones": [
+      "arco-que-respira",
+      "arco-que-se-dibuja",
+      "flujo-de-energia-en-plano",
+      "indice-en-curva",
+      "piezas-que-se-reacomodan",
+      "respuesta-a-acciones",
+      "revelado-suave"
+    ]
+  },
+  "avisos": [
+    "Los colores de marca forman «fondo crema + acento terracota», una combinación que la propia regla anti-genérico señala. Se respetan, pero la diferenciación debe venir de la composición, la fotografía y el movimiento (o de usar la propuesta B/C como variación autorizada).",
+    "No hay fotografías del cliente: el plan de imágenes debe usar bancos con licencia comercial, recursos programados o IA autorizada; una web sin imágenes queda plana.",
+    "Demo: cualquier foto de personas o instalaciones es ilustrativa y debe rotularse como tal; nunca presentarla como del negocio."
+  ]
+}

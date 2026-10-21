@@ -1,0 +1,405 @@
+{
+  "nota": "Fuentes de Google Fonts con licencia libre para uso web comercial (SIL Open Font License o Apache 2.0). Se pueden servir desde Google Fonts o descargar y alojar en el sitio. Cualquier otra fuente requiere confirmar su licencia web antes de usarla.",
+  "fuentes": [
+    {
+      "nombre": "Fraunces",
+      "categoria": "serif",
+      "estilo": "Editorial clásico (serif)",
+      "pesos": "300..900",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Playfair Display",
+      "categoria": "serif",
+      "estilo": "Editorial clásico (serif)",
+      "pesos": "400..900",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Cormorant Garamond",
+      "categoria": "serif",
+      "estilo": "Editorial clásico (serif)",
+      "pesos": "300..700",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "EB Garamond",
+      "categoria": "serif",
+      "estilo": "Editorial clásico (serif)",
+      "pesos": "400..800",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Libre Caslon Text",
+      "categoria": "serif",
+      "estilo": "Editorial clásico (serif)",
+      "pesos": "400..700",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Newsreader",
+      "categoria": "serif",
+      "estilo": "Editorial clásico (serif)",
+      "pesos": "200..800",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Source Serif 4",
+      "categoria": "serif",
+      "estilo": "Editorial clásico (serif)",
+      "pesos": "200..900",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Instrument Serif",
+      "categoria": "serif",
+      "estilo": "Expresivo / display",
+      "pesos": "400",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "DM Serif Display",
+      "categoria": "serif",
+      "estilo": "Expresivo / display",
+      "pesos": "400",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Bodoni Moda",
+      "categoria": "serif",
+      "estilo": "Editorial clásico (serif)",
+      "pesos": "400..900",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Lora",
+      "categoria": "serif",
+      "estilo": "Humanista y cercano",
+      "pesos": "400..700",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Merriweather",
+      "categoria": "serif",
+      "estilo": "Humanista y cercano",
+      "pesos": "300..900",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Spectral",
+      "categoria": "serif",
+      "estilo": "Editorial clásico (serif)",
+      "pesos": "200..800",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Young Serif",
+      "categoria": "serif",
+      "estilo": "Expresivo / display",
+      "pesos": "400",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Sora",
+      "categoria": "sans-serif",
+      "estilo": "Moderno geométrico",
+      "pesos": "100..800",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Manrope",
+      "categoria": "sans-serif",
+      "estilo": "Moderno geométrico",
+      "pesos": "200..800",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Outfit",
+      "categoria": "sans-serif",
+      "estilo": "Moderno geométrico",
+      "pesos": "100..900",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Plus Jakarta Sans",
+      "categoria": "sans-serif",
+      "estilo": "Moderno geométrico",
+      "pesos": "200..800",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Urbanist",
+      "categoria": "sans-serif",
+      "estilo": "Moderno geométrico",
+      "pesos": "100..900",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Syne",
+      "categoria": "sans-serif",
+      "estilo": "Expresivo / display",
+      "pesos": "400..800",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Space Grotesk",
+      "categoria": "sans-serif",
+      "estilo": "Técnico y preciso",
+      "pesos": "300..700",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "IBM Plex Sans",
+      "categoria": "sans-serif",
+      "estilo": "Técnico y preciso",
+      "pesos": "100..700",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "IBM Plex Mono",
+      "categoria": "monospace",
+      "estilo": "Técnico y preciso",
+      "pesos": "100..700",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "JetBrains Mono",
+      "categoria": "monospace",
+      "estilo": "Técnico y preciso",
+      "pesos": "100..800",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Geist",
+      "categoria": "sans-serif",
+      "estilo": "Técnico y preciso",
+      "pesos": "100..900",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Geist Mono",
+      "categoria": "monospace",
+      "estilo": "Técnico y preciso",
+      "pesos": "100..900",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Inter",
+      "categoria": "sans-serif",
+      "estilo": "Técnico y preciso",
+      "pesos": "100..900",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Archivo",
+      "categoria": "sans-serif",
+      "estilo": "Técnico y preciso",
+      "pesos": "100..900",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Archivo Narrow",
+      "categoria": "sans-serif",
+      "estilo": "Contundente",
+      "pesos": "400..700",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Barlow Condensed",
+      "categoria": "sans-serif",
+      "estilo": "Expresivo / display",
+      "pesos": "100..900",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Oswald",
+      "categoria": "sans-serif",
+      "estilo": "Expresivo / display",
+      "pesos": "200..700",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Bebas Neue",
+      "categoria": "sans-serif",
+      "estilo": "Expresivo / display",
+      "pesos": "400",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Anton",
+      "categoria": "sans-serif",
+      "estilo": "Expresivo / display",
+      "pesos": "400",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Unbounded",
+      "categoria": "sans-serif",
+      "estilo": "Expresivo / display",
+      "pesos": "200..900",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Bricolage Grotesque",
+      "categoria": "sans-serif",
+      "estilo": "Expresivo / display",
+      "pesos": "200..800",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Source Sans 3",
+      "categoria": "sans-serif",
+      "estilo": "Humanista y cercano",
+      "pesos": "200..900",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Nunito Sans",
+      "categoria": "sans-serif",
+      "estilo": "Humanista y cercano",
+      "pesos": "200..1000",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Figtree",
+      "categoria": "sans-serif",
+      "estilo": "Humanista y cercano",
+      "pesos": "300..900",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "DM Sans",
+      "categoria": "sans-serif",
+      "estilo": "Humanista y cercano",
+      "pesos": "100..1000",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Work Sans",
+      "categoria": "sans-serif",
+      "estilo": "Humanista y cercano",
+      "pesos": "100..900",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Karla",
+      "categoria": "sans-serif",
+      "estilo": "Humanista y cercano",
+      "pesos": "200..800",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Lexend",
+      "categoria": "sans-serif",
+      "estilo": "Humanista y cercano",
+      "pesos": "100..900",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Atkinson Hyperlegible",
+      "categoria": "sans-serif",
+      "estilo": "Humanista y cercano",
+      "pesos": "400..700",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Public Sans",
+      "categoria": "sans-serif",
+      "estilo": "Técnico y preciso",
+      "pesos": "100..900",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Red Hat Display",
+      "categoria": "sans-serif",
+      "estilo": "Moderno geométrico",
+      "pesos": "300..900",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Josefin Sans",
+      "categoria": "sans-serif",
+      "estilo": "Moderno geométrico",
+      "pesos": "100..700",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Montserrat",
+      "categoria": "sans-serif",
+      "estilo": "Moderno geométrico",
+      "pesos": "100..900",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Poppins",
+      "categoria": "sans-serif",
+      "estilo": "Moderno geométrico",
+      "pesos": "100..900",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Roboto Slab",
+      "categoria": "serif",
+      "estilo": "Técnico y preciso",
+      "pesos": "100..900",
+      "licencia": "Apache-2.0",
+      "origen": "Google Fonts"
+    },
+    {
+      "nombre": "Caveat",
+      "categoria": "handwriting",
+      "estilo": "Expresivo / display",
+      "pesos": "400..700",
+      "licencia": "OFL",
+      "origen": "Google Fonts"
+    }
+  ]
+}

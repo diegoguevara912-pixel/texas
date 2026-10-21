@@ -1,0 +1,119 @@
+{
+  "direccion_fotografica": {
+    "estilo": "fotografía editorial de interiores y detalles, tranquila, sin poses",
+    "iluminacion": "luz natural de mañana, lateral y difusa, sombras suaves",
+    "encuadre": "planos generales con mucho aire y detalles cercanos de manos, hojas y materiales",
+    "paleta": "verdes salvia, marfiles, madera clara y toques terracota que dialogan con la marca",
+    "atmosfera": "pausa, cuidado, respiración",
+    "realismo": "fotográfico, sin aspecto de IA ni de catálogo",
+    "consistencia": "temperatura cálida y saturación baja en todas",
+    "evitar": "sonrisas de catálogo, batas posando, primeros planos de bocas, logotipos o clínicas identificables"
+  },
+  "imagenes": [
+    {
+      "id": "luz",
+      "proposito": "Primera pantalla: la calma antes de hablar de dientes",
+      "donde": "index · portada a sangre",
+      "proporcion": "4:5",
+      "ancho_min": 1400,
+      "fuente": "banco",
+      "busqueda": [
+        "plants throwing a shadow on a wall",
+        "light with nature",
+        "shadow and light window"
+      ],
+      "alt": "Luz de mañana entrando por una ventana junto a una planta",
+      "ilustrativa": true
+    },
+    {
+      "id": "hojas",
+      "proposito": "Capítulo «Sin prisa»: textura viva en salvia",
+      "donde": "index · capítulo sin prisa",
+      "proporcion": "4:5",
+      "ancho_min": 1200,
+      "fuente": "banco",
+      "busqueda": [
+        "eucalyptus leaves close up",
+        "green leaves macro soft light",
+        "sage plant leaves"
+      ],
+      "alt": "Hojas verdes de eucalipto con luz suave",
+      "ilustrativa": true
+    },
+    {
+      "id": "sillon",
+      "proposito": "Tratamientos: el espacio clínico, limpio y luminoso",
+      "donde": "index · tratamientos",
+      "proporcion": "3:2",
+      "ancho_min": 1400,
+      "fuente": "banco",
+      "busqueda": [
+        "dental clinic chair bright",
+        "dentist office interior",
+        "dental chair"
+      ],
+      "alt": "Sillón dental en un consultorio luminoso (imagen ilustrativa)",
+      "ilustrativa": true
+    },
+    {
+      "id": "instrumentos",
+      "proposito": "Precisión: detalle de instrumental",
+      "donde": "tratamientos · cabecera",
+      "proporcion": "3:2",
+      "ancho_min": 1400,
+      "fuente": "banco",
+      "busqueda": [
+        "dental tools close up",
+        "dental instruments",
+        "dentist mirror tool"
+      ],
+      "alt": "Instrumental dental ordenado sobre una bandeja (imagen ilustrativa)",
+      "ilustrativa": true
+    },
+    {
+      "id": "manos",
+      "proposito": "Cuidado humano sin mostrar pacientes",
+      "donde": "primera visita · cabecera",
+      "proporcion": "4:5",
+      "ancho_min": 1200,
+      "fuente": "banco",
+      "busqueda": [
+        "hand holding a green leafy",
+        "two hands holding flowers",
+        "hands holding plant"
+      ],
+      "alt": "Manos sosteniendo una taza con luz cálida",
+      "ilustrativa": true
+    },
+    {
+      "id": "agua",
+      "proposito": "Un minuto para respirar: superficie quieta",
+      "donde": "primera visita · respirar",
+      "proporcion": "16:9",
+      "ancho_min": 1600,
+      "fuente": "banco",
+      "busqueda": [
+        "calm water reflects clouds",
+        "tranquil lake",
+        "still water reflection"
+      ],
+      "alt": "Superficie de agua en calma",
+      "ilustrativa": true
+    },
+    {
+      "id": "nino",
+      "proposito": "Odontopediatría: infancia y cepillado, sin rostros",
+      "donde": "tratamientos · niños",
+      "proporcion": "4:5",
+      "ancho_min": 1200,
+      "fuente": "banco",
+      "busqueda": [
+        "bamboo toothbrush still life",
+        "toothbrush",
+        "toothbrushes cup"
+      ],
+      "alt": "Cepillos de dientes de bambú en un vaso",
+      "ilustrativa": true
+    }
+  ]
+}

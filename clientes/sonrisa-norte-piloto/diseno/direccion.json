@@ -1,0 +1,20 @@
+{
+  "concepto_elegido": 1,
+  "concepto": "Una pausa luminosa",
+  "paleta": {
+    "propuesta_base": "A",
+    "justificacion": "Marca protagonista con el marfil del brief como fondo y la salvia oscurecida para acciones (contraste AA medido). Se añade una salvia nocturna para capítulos oscuros: da profundidad y ritmo sin salir de la marca. La terracota queda en detalles porque como texto no alcanza contraste."
+  },
+  "tipografia": {"display": "Fraunces", "texto": "Figtree", "justificacion": "Obligatorias por el brief. Se usa Fraunces a gran escala con eje óptico alto y cursiva para la palabra emocional; Figtree a 18 px para lectura cómoda en móvil."},
+  "movimiento": {"perfil": "editorial-lento", "intensidad": "media", "escenas": ["titular por líneas sobre la luz de portada", "cambio de fondo entre capítulos", "imágenes que se descubren con cortina", "escena de respiración fijada con el scroll", "índice de capítulos con progreso"]},
+  "bibliotecas": [],
+  "arquitectura": [
+    {"pagina": "index.html", "secciones": ["manana", "sin-prisa", "que-le-trae", "tratamientos", "respirar", "la-cita", "cierre"]},
+    {"pagina": "tratamientos.html", "secciones": ["cabecera-imagen", "cuatro-tratamientos", "cita"]},
+    {"pagina": "primera-visita.html", "secciones": ["cabecera-imagen", "paso-a-paso", "respirar", "cita"]},
+    {"pagina": "agenda.html", "secciones": ["solicitud"]},
+    {"pagina": "privacidad.html", "secciones": ["politica"]}
+  ],
+  "imagenes": "8 imágenes de banco con licencia comercial, ilustrativas, de luz, hojas, agua, manos, consultorio vacío, instrumental, cepillos infantiles y lino; más el arco dental programado (SVG).",
+  "riesgos": ["Fotos de banco con aspecto genérico: elegir detalles y luz", "La escena fijada en móviles modestos: se desactiva en modo ligero y con movimiento reducido"]
+}

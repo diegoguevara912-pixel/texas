@@ -1,0 +1,32 @@
+{
+  "concepto": "El arco que explica",
+  "idea": "El arco dental visto desde arriba es portada, selector y agenda: cada tratamiento se ve sucediendo antes de leerlo.",
+  "palabras_clave": ["arco dental", "calma", "vista oclusal", "encía", "editorial sereno"],
+  "personalidad": ["serena", "precisa", "cercana", "sin juicio"],
+  "paleta": {
+    "fondo": "#F6F1E7",
+    "texto": "#1F2A24",
+    "acento": "#3F5A4A",
+    "secundario": "#5E7D6A",
+    "foco": "#3F5A4A",
+    "superficie": "#EDE5D6",
+    "encia": "#C9785C",
+    "noche": "#24362C"
+  },
+  "tipografias": ["Fraunces", "Figtree"],
+  "escala_tipografica": "≈1.25 (Major third), base 18px, fluida con clamp",
+  "composicion": "editorial-asimetrica-con-ilustracion-viva",
+  "hero_tipo": "titular-editorial-con-arco-dental-interactivo",
+  "secciones": ["hero-arco-selector", "sin-prisa", "indice-tratamientos", "tres-decisiones", "cierre"],
+  "animaciones": ["arco-que-se-dibuja", "arco-que-respira", "piezas-que-se-reacomodan", "revelado-suave", "indice-en-curva"],
+  "elemento_diferenciador": "Arco dental ilustrado e interactivo que muestra cada tratamiento en 5 segundos y preselecciona la cita",
+  "tratamiento_imagenes": "Sin fotografía; ilustración vectorial propia con piezas marfil, contorno salvia y encía terracota",
+  "iconografia": "Trazos propios SVG 1.5px; el icono de cada tratamiento es su mini-arco",
+  "reglas_uso": [
+    "La terracota solo pinta la encía y el punto del logo",
+    "Acciones en salvia profunda #3F5A4A; la salvia del brief solo en texto grande e ilustración",
+    "Una acción principal por pantalla",
+    "Sin fotos de banco de sonrisas",
+    "Datos no confirmados como [PENDIENTE: …] visible"
+  ]
+}

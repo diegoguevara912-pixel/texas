@@ -1,0 +1,42 @@
+# Dependencias y compilados
+node_modules/
+dist/
+build/
+__pycache__/
+*.pyc
+.venv/
+
+# Secretos y configuración local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+negocio/
+claves-*.env
+
+# Bases de datos y archivos subidos
+*.sqlite
+*.sqlite3
+*.db
+data/
+uploads/*
+!uploads/.gitkeep
+productos/autolote-ultra-premium/uploads/*
+!productos/autolote-ultra-premium/uploads/.gitkeep
+
+# Fábrica: clientes locales (los publicables van en /clientes) y respaldos
+productos/fabrica-web-signature/clients/
+clients-respaldos/
+**/motor/2*/
+*.zip
+
+# Herramientas locales de asistentes y sistema
+.recall/
+.anchor/
+.Rhistory
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+handoff-*.md

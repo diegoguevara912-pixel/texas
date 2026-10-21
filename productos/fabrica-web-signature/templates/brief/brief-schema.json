@@ -1,0 +1,715 @@
+{
+  "nombre": "BRIEF INTELIGENTE SIGNATURE",
+  "version": 3,
+  "nota": "Solo los campos marcados como obligatorios son necesarios. Todo lo demás puede quedar vacío: la fábrica toma decisiones profesionales y las documenta. Nunca se inventan datos del negocio que deban verificarse.",
+  "secciones": [
+    {
+      "id": "A",
+      "titulo": "Información empresarial",
+      "campos": [
+        {
+          "id": "nombre_empresa",
+          "label": "Nombre de la empresa",
+          "tipo": "texto",
+          "obligatorio": true
+        },
+        {
+          "id": "nombre_comercial",
+          "label": "Nombre comercial (si es distinto)",
+          "tipo": "texto"
+        },
+        {
+          "id": "sector",
+          "label": "Sector",
+          "tipo": "texto",
+          "obligatorio": true,
+          "ayuda": "Ej.: clínica dental, constructora, restaurante, energía solar"
+        },
+        {
+          "id": "subsector",
+          "label": "Subsector o especialidad",
+          "tipo": "texto"
+        },
+        {
+          "id": "pais",
+          "label": "País",
+          "tipo": "texto",
+          "obligatorio": true,
+          "defecto": "Honduras"
+        },
+        {
+          "id": "ciudad",
+          "label": "Ciudad",
+          "tipo": "texto"
+        },
+        {
+          "id": "cobertura",
+          "label": "Cobertura geográfica",
+          "tipo": "texto",
+          "ayuda": "Ej.: solo Tegucigalpa, todo Honduras, Centroamérica"
+        },
+        {
+          "id": "descripcion_breve",
+          "label": "Descripción breve del negocio",
+          "tipo": "parrafo",
+          "obligatorio": true
+        },
+        {
+          "id": "tipo_cliente",
+          "label": "Público objetivo (a quién atiende)",
+          "tipo": "parrafo"
+        },
+        {
+          "id": "competidores",
+          "label": "Competidores (si se conocen)",
+          "tipo": "parrafo",
+          "ayuda": "Nombres o enlaces. Sirven para diferenciarse, nunca para copiar."
+        },
+        {
+          "id": "estado_negocio",
+          "label": "Estado del negocio",
+          "tipo": "opcion",
+          "obligatorio": true,
+          "opciones": [
+            "existente",
+            "nuevo",
+            "demostrativo"
+          ],
+          "ayuda": "Demostrativo = web de muestra; usa datos de ejemplo marcados y no se indexa en Google."
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "titulo": "Productos y servicios",
+      "campos": [
+        {
+          "id": "servicios_principales",
+          "label": "Servicios principales",
+          "tipo": "parrafo",
+          "obligatorio": true,
+          "ayuda": "Uno por línea"
+        },
+        {
+          "id": "productos",
+          "label": "Productos",
+          "tipo": "parrafo"
+        },
+        {
+          "id": "servicios_adicionales",
+          "label": "Servicios adicionales",
+          "tipo": "parrafo"
+        },
+        {
+          "id": "prioritario",
+          "label": "Producto o servicio prioritario",
+          "tipo": "texto"
+        },
+        {
+          "id": "propuesta_valor",
+          "label": "Propuesta de valor",
+          "tipo": "parrafo"
+        },
+        {
+          "id": "diferenciadores",
+          "label": "Diferenciadores",
+          "tipo": "parrafo"
+        },
+        {
+          "id": "ventajas_verificables",
+          "label": "Ventajas competitivas verificables",
+          "tipo": "parrafo",
+          "ayuda": "Solo lo que se pueda comprobar"
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "titulo": "Objetivos comerciales",
+      "campos": [
+        {
+          "id": "objetivos",
+          "label": "Objetivos (elige uno o varios)",
+          "tipo": "multiple",
+          "obligatorio": true,
+          "opciones": [
+            "Captar clientes",
+            "Generar cotizaciones",
+            "Vender productos",
+            "Reservar citas",
+            "Promocionar servicios",
+            "Mostrar proyectos",
+            "Fortalecer la marca",
+            "Conseguir contactos comerciales",
+            "Presentar información",
+            "Ofrecer herramientas interactivas",
+            "Ofrecer autoservicio"
+          ]
+        },
+        {
+          "id": "objetivo_otro",
+          "label": "Otro objetivo personalizado",
+          "tipo": "texto"
+        },
+        {
+          "id": "objetivos_pagina",
+          "label": "Qué debe lograr la página (en tus palabras)",
+          "tipo": "parrafo"
+        }
+      ]
+    },
+    {
+      "id": "D",
+      "titulo": "Tipo de web",
+      "campos": [
+        {
+          "id": "tipo_web",
+          "label": "Tipo de web",
+          "tipo": "opcion",
+          "obligatorio": true,
+          "defecto": "Landing page",
+          "opciones": [
+            "Landing page",
+            "Web corporativa",
+            "Sitio multipágina",
+            "Catálogo",
+            "Tienda online",
+            "Portafolio",
+            "Plataforma de servicios",
+            "Aplicación web",
+            "Página de campaña",
+            "Otro"
+          ]
+        },
+        {
+          "id": "tipo_web_otro",
+          "label": "Si elegiste Otro, descríbelo",
+          "tipo": "texto"
+        }
+      ]
+    },
+    {
+      "id": "E",
+      "titulo": "Identidad de marca",
+      "campos": [
+        {
+          "id": "logotipo",
+          "label": "Logotipo",
+          "tipo": "opcion",
+          "opciones": [
+            "Tiene logotipo",
+            "No tiene, proponer uno",
+            "No sé"
+          ]
+        },
+        {
+          "id": "logotipo_archivo",
+          "label": "Logotipo: ruta o enlace del archivo",
+          "tipo": "texto",
+          "ayuda": "Ej.: C:\\Logos\\cliente.svg o un enlace. Si no hay, la fábrica propone uno tipográfico provisional."
+        },
+        {
+          "id": "colores_existentes",
+          "label": "Colores principales de la marca",
+          "tipo": "colores",
+          "ayuda": "Escribe nombres o códigos (#0B2545) o elígelos con el selector."
+        },
+        {
+          "id": "colores_secundarios",
+          "label": "Colores secundarios",
+          "tipo": "colores"
+        },
+        {
+          "id": "colores_preferidos",
+          "label": "Colores preferidos",
+          "tipo": "texto"
+        },
+        {
+          "id": "colores_evitar",
+          "label": "Colores que deben evitarse",
+          "tipo": "texto"
+        },
+        {
+          "id": "referencias_visuales",
+          "label": "Referencias visuales (enlaces o descripción)",
+          "tipo": "parrafo"
+        },
+        {
+          "id": "fotografias",
+          "label": "¿Tiene fotografías propias?",
+          "tipo": "opcion",
+          "opciones": [
+            "Sí, profesionales",
+            "Sí, de celular",
+            "No",
+            "No sé"
+          ]
+        },
+        {
+          "id": "fotografias_ubicacion",
+          "label": "Fotografías disponibles: carpeta o enlace",
+          "tipo": "texto",
+          "ayuda": "Solo fotos con permiso de uso."
+        },
+        {
+          "id": "material_marca",
+          "label": "Material de marca disponible",
+          "tipo": "parrafo"
+        },
+        {
+          "id": "estilo_deseado",
+          "label": "Estilo visual deseado",
+          "tipo": "texto"
+        },
+        {
+          "id": "personalidad_marca",
+          "label": "Personalidad de marca",
+          "tipo": "texto",
+          "ayuda": "Ej.: cercana, técnica, elegante, enérgica"
+        },
+        {
+          "id": "preferencias_creativas",
+          "label": "Preferencias creativas",
+          "tipo": "parrafo"
+        }
+      ]
+    },
+    {
+      "id": "S",
+      "titulo": "Estrategia y experiencia (opcional)",
+      "campos": [
+        {
+          "id": "objetivo_principal",
+          "label": "Objetivo principal de la página",
+          "tipo": "texto",
+          "ayuda": "Ej.: que pidan una cita de valoración"
+        },
+        {
+          "id": "accion_visitante",
+          "label": "Acción que esperas del visitante",
+          "tipo": "texto",
+          "ayuda": "Ej.: escribir por WhatsApp, pedir cotización"
+        },
+        {
+          "id": "posicionamiento",
+          "label": "Tipo de posicionamiento",
+          "tipo": "opcion",
+          "opciones": [
+            "Premium y exclusivo",
+            "Experto técnico",
+            "Cercano y accesible",
+            "Innovador",
+            "Tradicional y confiable",
+            "Decidir la fábrica"
+          ]
+        },
+        {
+          "id": "sensacion_deseada",
+          "label": "Sensación que debe transmitir",
+          "tipo": "texto",
+          "ayuda": "Ej.: calma, precisión, energía, lujo discreto"
+        }
+      ]
+    },
+    {
+      "id": "T",
+      "titulo": "Tipografía",
+      "nota": "Si lo dejas vacío, Claude elige una combinación profesional adecuada al negocio. Si eliges una fuente, se respeta siempre que sea legible, técnicamente viable y su licencia lo permita.",
+      "campos": [
+        {
+          "id": "tipografia_principal",
+          "label": "Tipografía principal (titulares)",
+          "tipo": "fuente",
+          "ayuda": "Escribe el nombre o elige del catálogo de fuentes con licencia libre."
+        },
+        {
+          "id": "tipografia_secundaria",
+          "label": "Tipografía secundaria (textos)",
+          "tipo": "fuente"
+        },
+        {
+          "id": "tipografia_titulares",
+          "label": "Tipografía para titulares, si es distinta de la principal",
+          "tipo": "fuente"
+        },
+        {
+          "id": "tipografia_textos",
+          "label": "Tipografía para textos largos, si es distinta de la secundaria",
+          "tipo": "fuente"
+        },
+        {
+          "id": "tipografia_peso",
+          "label": "Peso visual",
+          "tipo": "opcion",
+          "opciones": [
+            "Ligero y fino",
+            "Equilibrado",
+            "Contundente",
+            "Decidir la fábrica"
+          ]
+        },
+        {
+          "id": "tipografia_estilo",
+          "label": "Estilo editorial",
+          "tipo": "opcion",
+          "opciones": [
+            "Editorial clásico (serif)",
+            "Moderno geométrico",
+            "Técnico y preciso",
+            "Humanista y cercano",
+            "Expresivo / display",
+            "Decidir la fábrica"
+          ]
+        },
+        {
+          "id": "tipografia_mayusculas",
+          "label": "Preferencias de mayúsculas",
+          "tipo": "opcion",
+          "opciones": [
+            "Normal (sin mayúsculas sostenidas)",
+            "Titulares en mayúsculas",
+            "Etiquetas pequeñas en mayúsculas",
+            "Decidir la fábrica"
+          ]
+        },
+        {
+          "id": "tipografia_personalizada",
+          "label": "Tipografía personalizada (archivos autorizados del cliente)",
+          "tipo": "texto",
+          "ayuda": "Ruta de los archivos .woff2/.ttf y quién autoriza su uso web. Sin licencia web confirmada no se usa."
+        },
+        {
+          "id": "tipografia_preferencias",
+          "label": "Otras preferencias de tipografía",
+          "tipo": "texto"
+        }
+      ]
+    },
+    {
+      "id": "F",
+      "titulo": "Contenido",
+      "campos": [
+        {
+          "id": "descripcion_empresa",
+          "label": "Descripción de la empresa",
+          "tipo": "parrafo"
+        },
+        {
+          "id": "mision",
+          "label": "Misión o propuesta comercial",
+          "tipo": "parrafo"
+        },
+        {
+          "id": "historia",
+          "label": "Historia",
+          "tipo": "parrafo"
+        },
+        {
+          "id": "proyectos",
+          "label": "Proyectos realizados (reales)",
+          "tipo": "parrafo"
+        },
+        {
+          "id": "faq",
+          "label": "Preguntas frecuentes",
+          "tipo": "parrafo"
+        },
+        {
+          "id": "info_tecnica",
+          "label": "Información técnica",
+          "tipo": "parrafo"
+        },
+        {
+          "id": "certificaciones",
+          "label": "Certificaciones verificables",
+          "tipo": "parrafo"
+        },
+        {
+          "id": "testimonios",
+          "label": "Testimonios autorizados",
+          "tipo": "parrafo",
+          "ayuda": "Solo testimonios reales con permiso de la persona"
+        },
+        {
+          "id": "otros_contenidos",
+          "label": "Otros contenidos",
+          "tipo": "parrafo"
+        }
+      ]
+    },
+    {
+      "id": "G",
+      "titulo": "Contacto",
+      "campos": [
+        {
+          "id": "telefono",
+          "label": "Teléfono",
+          "tipo": "texto"
+        },
+        {
+          "id": "whatsapp",
+          "label": "WhatsApp (con código de país, ej. 50499998888)",
+          "tipo": "texto"
+        },
+        {
+          "id": "correo",
+          "label": "Correo electrónico",
+          "tipo": "texto"
+        },
+        {
+          "id": "ubicacion",
+          "label": "Ubicación / dirección",
+          "tipo": "texto"
+        },
+        {
+          "id": "redes",
+          "label": "Redes sociales",
+          "tipo": "parrafo"
+        },
+        {
+          "id": "horarios",
+          "label": "Horarios",
+          "tipo": "texto"
+        },
+        {
+          "id": "formulario_contacto",
+          "label": "¿Quiere formulario de contacto?",
+          "tipo": "opcion",
+          "opciones": [
+            "Sí",
+            "No",
+            "Decidir la fábrica"
+          ]
+        },
+        {
+          "id": "contacto_preferido",
+          "label": "Medio de contacto preferido",
+          "tipo": "opcion",
+          "opciones": [
+            "WhatsApp",
+            "Teléfono",
+            "Correo",
+            "Formulario",
+            "Visita"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "H",
+      "titulo": "Funcionalidades",
+      "campos": [
+        {
+          "id": "funcionalidades",
+          "label": "Funcionalidades deseadas",
+          "tipo": "multiple",
+          "opciones": [
+            "Chat de WhatsApp",
+            "Formularios",
+            "Cotizador",
+            "Calculadora",
+            "Simulador",
+            "Agendamiento",
+            "Catálogo",
+            "Pagos",
+            "Chatbot",
+            "Inteligencia artificial",
+            "Galería",
+            "Buscador",
+            "Panel administrativo",
+            "Integraciones con otras aplicaciones",
+            "Animaciones",
+            "Modelos 3D",
+            "Integraciones especiales"
+          ]
+        },
+        {
+          "id": "funcionalidades_especiales",
+          "label": "Funcionalidades especiales",
+          "tipo": "parrafo"
+        }
+      ]
+    },
+    {
+      "id": "V",
+      "titulo": "Preferencias avanzadas de diseño (opcional)",
+      "campos": [
+        {
+          "id": "estilo_expresion",
+          "label": "Diseño minimalista o expresivo",
+          "tipo": "opcion",
+          "opciones": [
+            "Minimalista",
+            "Equilibrado",
+            "Expresivo",
+            "Decidir la fábrica"
+          ]
+        },
+        {
+          "id": "intensidad_animacion",
+          "label": "Intensidad de animación",
+          "tipo": "opcion",
+          "opciones": [
+            "Mínima",
+            "Media",
+            "Alta (cinematográfica)",
+            "Decidir la fábrica"
+          ]
+        },
+        {
+          "id": "nivel_interactividad",
+          "label": "Nivel de interactividad",
+          "tipo": "opcion",
+          "opciones": [
+            "Básico",
+            "Medio",
+            "Alto",
+            "Decidir la fábrica"
+          ]
+        },
+        {
+          "id": "necesita_3d",
+          "label": "¿Visualizaciones 3D?",
+          "tipo": "opcion",
+          "opciones": [
+            "No",
+            "Solo si aporta",
+            "Sí"
+          ]
+        },
+        {
+          "id": "prioridad_rendimiento",
+          "label": "Prioridad de rendimiento",
+          "tipo": "opcion",
+          "opciones": [
+            "Máxima velocidad",
+            "Equilibrio",
+            "Impacto visual primero"
+          ]
+        },
+        {
+          "id": "restricciones_diseno",
+          "label": "Restricciones de diseño",
+          "tipo": "parrafo",
+          "ayuda": "Lo que no se debe hacer (colores, estilos, referencias a evitar)"
+        }
+      ]
+    },
+    {
+      "id": "R",
+      "titulo": "Recursos visuales (opcional)",
+      "campos": [
+        {
+          "id": "fuentes_imagenes",
+          "label": "De dónde pueden salir las imágenes",
+          "tipo": "multiple",
+          "opciones": [
+            "Imágenes del cliente",
+            "Bancos con licencia (gratis)",
+            "IA con Hostinger (procedimiento asistido)",
+            "Recursos programados (SVG, 3D)",
+            "Decidir la fábrica"
+          ]
+        },
+        {
+          "id": "autorizacion_ia",
+          "label": "Autorización para generar imágenes con IA (puede gastar créditos)",
+          "tipo": "opcion",
+          "opciones": [
+            "No generar con IA",
+            "Sí, hasta 5 imágenes",
+            "Sí, hasta 15 imágenes"
+          ],
+          "defecto": "No generar con IA"
+        },
+        {
+          "id": "preferencias_imagenes",
+          "label": "Preferencias de imágenes",
+          "tipo": "parrafo",
+          "ayuda": "Ej.: luz natural, personas reales de Honduras, sin sonrisas de catálogo"
+        }
+      ]
+    },
+    {
+      "id": "I",
+      "titulo": "Recursos y restricciones",
+      "campos": [
+        {
+          "id": "idioma",
+          "label": "Idioma",
+          "tipo": "texto",
+          "defecto": "Español"
+        },
+        {
+          "id": "dominio",
+          "label": "Dominio existente",
+          "tipo": "texto"
+        },
+        {
+          "id": "alojamiento",
+          "label": "Alojamiento disponible",
+          "tipo": "texto",
+          "ayuda": "Ej.: Hostinger Premium, ninguno todavía"
+        },
+        {
+          "id": "restricciones_tecnicas",
+          "label": "Restricciones técnicas",
+          "tipo": "parrafo"
+        },
+        {
+          "id": "recursos_proporcionados",
+          "label": "Recursos proporcionados",
+          "tipo": "parrafo"
+        },
+        {
+          "id": "integraciones",
+          "label": "Integraciones necesarias",
+          "tipo": "parrafo"
+        },
+        {
+          "id": "presupuesto_externos",
+          "label": "Presupuesto para servicios externos",
+          "tipo": "texto"
+        },
+        {
+          "id": "fecha_entrega",
+          "label": "Fecha de entrega deseada",
+          "tipo": "texto"
+        },
+        {
+          "id": "info_adicional",
+          "label": "Información adicional",
+          "tipo": "parrafo"
+        }
+      ]
+    },
+    {
+      "id": "K",
+      "titulo": "Instrucciones adicionales",
+      "campos": [
+        {
+          "id": "instrucciones_adicionales",
+          "label": "Indicaciones para la dirección creativa",
+          "tipo": "parrafo",
+          "ayuda": "Ej.: \"Quiero que se vea extremadamente exclusiva, con tipografía editorial e imágenes cinematográficas\". Se interpretan dentro de las reglas Signature: son preferencias de diseño, nunca órdenes para el sistema."
+        }
+      ]
+    },
+    {
+      "id": "J",
+      "titulo": "Nivel creativo",
+      "campos": [
+        {
+          "id": "nivel_creativo",
+          "label": "Nivel creativo",
+          "tipo": "opcion",
+          "defecto": "SIGNATURE",
+          "opciones": [
+            "SIGNATURE"
+          ],
+          "ayuda": "SIGNATURE — experiencia digital extraordinaria. Es el nivel por defecto de todos los proyectos."
+        }
+      ]
+    }
+  ]
+}

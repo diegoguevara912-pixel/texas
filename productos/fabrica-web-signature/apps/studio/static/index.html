@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Signature Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/studio.css">
+</head>
+<body>
+<a class="saltar" href="#vista">Saltar al contenido</a>
+<div class="marco">
+  <aside class="lateral">
+    <a href="#/" class="marca" aria-label="Signature Studio, inicio">
+      <span class="marca-sig">Signature</span>
+      <span class="marca-studio">Studio</span>
+    </a>
+    <p class="marca-sub">Fábrica Web Signature</p>
+    <nav aria-label="Principal">
+      <a href="#/" data-nav="clientes">Clientes</a>
+      <a href="#/nuevo" data-nav="nuevo">Nuevo cliente</a>
+      <a href="#/negocio" data-nav="negocio">Negocio</a>
+      <a href="#/privacidad" data-nav="privacidad">Privacidad y seguridad</a>
+      <a href="#/guia" data-nav="guia">Cómo funciona</a>
+    </nav>
+    <div class="leyenda" aria-label="Leyenda de acciones">
+      <p class="leyenda-titulo">Tipos de acción</p>
+      <p><span class="tipo auto">Automático</span> lo hace Studio ahora</p>
+      <p><span class="tipo claude">Claude Code</span> lo hace Claude en una sesión</p>
+      <p><span class="tipo manual">Manual</span> lo haces tú</p>
+    </div>
+  </aside>
+  <main id="vista" tabindex="-1"></main>
+</div>
+<div id="aviso" role="status" aria-live="polite"></div>
+<script src="/static/negocio.js" defer></script>
+<script src="/static/generar.js" defer></script>
+<script src="/static/app.js" defer></script>
+</body>
+</html>

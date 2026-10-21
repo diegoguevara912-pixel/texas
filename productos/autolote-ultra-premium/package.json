@@ -1,0 +1,57 @@
+{
+  "name": "autolote-ultra-premium",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Showroom digital 3D y plataforma comercial para autolote (independiente).",
+  "engines": {
+    "node": ">=20"
+  },
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently -n api,web -c yellow,cyan \"node --watch server/index.js\" \"vite\"",
+    "build": "vite build",
+    "start": "node server/index.js",
+    "migrate": "node server/db/migrate.js",
+    "seed:demo": "node server/db/seed-demo.js",
+    "admin:create": "node server/scripts/create-admin.js",
+    "test": "vitest run",
+    "qa:capturas": "node scripts/qa-screens.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/bodoni-moda": "^5.3.0",
+    "@fontsource-variable/jetbrains-mono": "^5.3.0",
+    "@fontsource-variable/manrope": "^5.3.0",
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.2",
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.1",
+    "gsap": "^3.15.0",
+    "helmet": "^8.3.0",
+    "knex": "^3.3.0",
+    "multer": "^2.4.0",
+    "mysql2": "^3.24.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.4",
+    "three": "^0.186.1",
+    "zod": "^4.6.7",
+    "vite": "^8.3.4",
+    "@vitejs/plugin-react": "^6.1.2"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.6",
+    "playwright-core": "^1.64.1",
+    "supertest": "^7.3.1",
+    "vitest": "^5.0.5"
+  },
+  "allowScripts": {
+    "better-sqlite3@13.0.3": true
+  },
+  "optionalDependencies": {
+    "better-sqlite3": "^13.0.3"
+  }
+}

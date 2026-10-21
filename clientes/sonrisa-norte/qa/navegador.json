@@ -1,0 +1,102 @@
+{
+  "slug": "sonrisa-norte",
+  "fecha": "2026-10-18 09:29:55",
+  "marca_tiempo": 1792337387.281592,
+  "navegador": "chrome.exe",
+  "medidas": {
+    "movil": {
+      "ancho": 390,
+      "vista": 390,
+      "h1": "Fraunces, \"Iowan Old Style\", Georgia, serif",
+      "texto": "Figtree, \"Segoe UI\", system-ui, sans-serif",
+      "titulo": "Sonrisa Norte · Clínica dental en San Pedro Sula (demo)",
+      "cargadas": [
+        "Figtree",
+        "Figtree",
+        "Figtree",
+        "Fraunces",
+        "Fraunces"
+      ],
+      "imgsRotas": []
+    },
+    "tableta": {
+      "ancho": 820,
+      "vista": 820,
+      "h1": "Fraunces, \"Iowan Old Style\", Georgia, serif",
+      "texto": "Figtree, \"Segoe UI\", system-ui, sans-serif",
+      "titulo": "Sonrisa Norte · Clínica dental en San Pedro Sula (demo)",
+      "cargadas": [
+        "Figtree",
+        "Figtree",
+        "Figtree",
+        "Fraunces",
+        "Fraunces"
+      ],
+      "imgsRotas": []
+    },
+    "escritorio": {
+      "ancho": 1440,
+      "vista": 1440,
+      "h1": "Fraunces, \"Iowan Old Style\", Georgia, serif",
+      "texto": "Figtree, \"Segoe UI\", system-ui, sans-serif",
+      "titulo": "Sonrisa Norte · Clínica dental en San Pedro Sula (demo)",
+      "cargadas": [
+        "Figtree",
+        "Figtree",
+        "Figtree",
+        "Fraunces",
+        "Fraunces"
+      ],
+      "imgsRotas": []
+    }
+  },
+  "capturas": [
+    "qa/capturas/auto-movil.png",
+    "qa/capturas/auto-tableta.png",
+    "qa/capturas/auto-escritorio.png"
+  ],
+  "resultados": [
+    {
+      "id": "desborde",
+      "prueba": "Sin scroll horizontal en 390, 820 y 1440 px",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "consola",
+      "prueba": "Errores de JavaScript en consola",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "recursos",
+      "prueba": "Todos los recursos del sitio cargan (sin 404)",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "imagenes_nav",
+      "prueba": "Imágenes visibles en el navegador",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "navegador",
+      "prueba": "Revisión visual con capturas en 390/820/1440 px",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": "Capturas: qa/capturas/auto-movil.png, qa/capturas/auto-tableta.png, qa/capturas/auto-escritorio.png. La valoración estética la hace Claude en la revisión Signature."
+    },
+    {
+      "id": "fuentes_reales",
+      "prueba": "Tipografías aplicadas en el navegador",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": "h1: Fraunces, \"Iowan Old Style\", Georgia, serif · texto: Figtree, \"Segoe UI\", system-ui, sans-serif · cargadas: Figtree, Fraunces"
+    }
+  ]
+}

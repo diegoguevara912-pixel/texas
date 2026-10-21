@@ -1,0 +1,57 @@
+{
+  "concepto": "Una pausa luminosa",
+  "idea": "Antes de hablar de dientes, la página baja el pulso: luz de mañana, ventanas en arco y capítulos que cambian de luz.",
+  "palabras_clave": [
+    "pausa",
+    "luz de mañana",
+    "ventana en arco",
+    "capítulos",
+    "respirar"
+  ],
+  "personalidad": [
+    "serena",
+    "precisa",
+    "cercana"
+  ],
+  "paleta": {
+    "fondo": "#F6F1E7",
+    "texto": "#1F2A24",
+    "acento": "#3F5A4A",
+    "secundario": "#5E7D6A",
+    "noche": "#22352B",
+    "encia": "#C9785C",
+    "foco": "#3F5A4A"
+  },
+  "tipografias": [
+    "Fraunces",
+    "Figtree"
+  ],
+  "escala_tipografica": "display hasta 7.6rem (clamp), texto 18px, interlineado 0.98 en display",
+  "composicion": "editorial-cinematografica-por-capitulos",
+  "hero_tipo": "titular-gigante-con-fotografia-en-ventana-de-arco",
+  "secciones": [
+    "manana",
+    "sin-prisa",
+    "que-le-trae",
+    "tratamientos",
+    "respirar",
+    "la-cita",
+    "cierre"
+  ],
+  "animaciones": [
+    "titular-por-lineas",
+    "cortina-de-imagen",
+    "escena-de-respiracion-ligada-al-scroll",
+    "indice-de-capitulos",
+    "botones-magneticos"
+  ],
+  "elemento_diferenciador": "Escena de respiración que se expande y contrae con el scroll, más ventanas en arco que repiten el logotipo",
+  "tratamiento_imagenes": "Fotografía ilustrativa de luz natural, hojas y agua en marcos de arco; sin personas posando",
+  "iconografia": "Mini-arcos dentales propios",
+  "reglas_uso": [
+    "Acciones en salvia profunda #3F5A4A",
+    "Capítulos oscuros en salvia nocturna #22352B",
+    "Terracota solo en detalles",
+    "Toda foto de banco rotulada como ilustrativa"
+  ]
+}

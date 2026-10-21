@@ -1,0 +1,829 @@
+{
+  "imagenes": {
+    "luz": {
+      "id": "luz",
+      "fuente": "banco",
+      "proposito": "Primera pantalla: la calma antes de hablar de dientes",
+      "alt": "Luz de mañana entrando por una ventana junto a una planta",
+      "ilustrativa": true,
+      "candidatos": [
+        {
+          "proveedor": "openverse/wordpress",
+          "url": "https://pd.w.org/2023/04/668642d5f655409b0.97860996-1536x2048.jpg",
+          "pagina": "https://wordpress.org/photos/photo/668642d5f6/",
+          "autor": "Marina Koleva",
+          "licencia": "CC CC0 1.0",
+          "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "atribucion": "\"Plants throwing a shadow on a white building\" by Marina Koleva is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+          "titulo": "Plants throwing a shadow on a white building",
+          "ancho": 1536,
+          "alto": 2048,
+          "requiere_atribucion": false,
+          "etiquetas": "building daytime leaf palm shadow wall",
+          "consulta": "plants throwing a shadow on a wall",
+          "letra": "a",
+          "original": "recursos/candidatos/luz/a.jpg",
+          "web": [
+            "assets/img/luz-640.webp",
+            "assets/img/luz-1280.webp",
+            "assets/img/luz-1536.webp"
+          ],
+          "kb": [
+            104,
+            363,
+            475
+          ],
+          "medidas_original": [
+            1536,
+            2048
+          ],
+          "srcset": "assets/img/luz-640.webp 640w, assets/img/luz-1280.webp 1280w, assets/img/luz-1536.webp 1536w",
+          "anchos": [
+            640,
+            1280,
+            1536
+          ],
+          "usada": true
+        },
+        {
+          "proveedor": "openverse/stocksnap",
+          "url": "https://cdn.stocksnap.io/img-thumbs/960w/TH3OL6AP50.jpg",
+          "pagina": "https://stocksnap.io/photo/nature-sky-TH3OL6AP50",
+          "autor": "Jeremy Thomas",
+          "licencia": "CC CC0 1.0",
+          "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "atribucion": "\"Nature Sky\" by Jeremy Thomas is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+          "titulo": "Nature Sky",
+          "ancho": 4789,
+          "alto": 6509,
+          "requiere_atribucion": false,
+          "etiquetas": "bulb constellation light longexposure nature night photography shadows silhouette sky stars trees",
+          "consulta": "light with nature",
+          "letra": "b",
+          "original": "recursos/candidatos/luz/b.jpg",
+          "web": [
+            "assets/img/luz-b-640.webp",
+            "assets/img/luz-b-960.webp"
+          ],
+          "kb": [
+            97,
+            239
+          ],
+          "medidas_original": [
+            960,
+            1305
+          ],
+          "srcset": "assets/img/luz-b-640.webp 640w, assets/img/luz-b-960.webp 960w",
+          "anchos": [
+            640,
+            960
+          ],
+          "usada": false
+        },
+        {
+          "proveedor": "openverse/stocksnap",
+          "url": "https://cdn.stocksnap.io/img-thumbs/960w/CWDNXF6S2V.jpg",
+          "pagina": "https://stocksnap.io/photo/guy-man-CWDNXF6S2V",
+          "autor": "Ben White",
+          "licencia": "CC CC0 1.0",
+          "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "atribucion": "\"Guy Man\" by Ben White is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+          "titulo": "Guy Man",
+          "ancho": 4016,
+          "alto": 6016,
+          "requiere_atribucion": false,
+          "etiquetas": "artist back bokeh field glare grass guitar guy instrument leave light male man music musician nature people rays still sun trees walk",
+          "consulta": "light with nature",
+          "letra": "c",
+          "original": "recursos/candidatos/luz/c.jpg",
+          "web": [
+            "assets/img/luz-c-640.webp",
+            "assets/img/luz-c-960.webp"
+          ],
+          "kb": [
+            33,
+            64
+          ],
+          "medidas_original": [
+            960,
+            1438
+          ],
+          "srcset": "assets/img/luz-c-640.webp 640w, assets/img/luz-c-960.webp 960w",
+          "anchos": [
+            640,
+            960
+          ],
+          "usada": false
+        }
+      ],
+      "estado": "lista",
+      "notas": []
+    },
+    "hojas": {
+      "id": "hojas",
+      "fuente": "banco",
+      "proposito": "Capítulo «Sin prisa»: textura viva en salvia",
+      "alt": "Hojas verdes de eucalipto con luz suave",
+      "ilustrativa": true,
+      "candidatos": [
+        {
+          "proveedor": "openverse/wordpress",
+          "url": "https://pd.w.org/2026/04/48869e4f1d2843a02.47301874-1536x2048.jpeg",
+          "pagina": "https://wordpress.org/photos/photo/48869e4f1d/",
+          "autor": "sebasvp",
+          "licencia": "CC CC0 1.0",
+          "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "atribucion": "\"A close-up view of green eucalyptus leaves, showcasing their rounded shape and smooth texture\" by sebasvp is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+          "titulo": "A close-up view of green eucalyptus leaves, showcasing their rounded shape and smooth texture",
+          "ancho": 1536,
+          "alto": 2048,
+          "requiere_atribucion": false,
+          "consulta": "eucalyptus leaves close up",
+          "letra": "a",
+          "original": "recursos/candidatos/hojas/a.jpg",
+          "web": [
+            "assets/img/hojas-640.webp",
+            "assets/img/hojas-1280.webp",
+            "assets/img/hojas-1536.webp"
+          ],
+          "kb": [
+            33,
+            87,
+            121
+          ],
+          "medidas_original": [
+            1536,
+            2048
+          ],
+          "srcset": "assets/img/hojas-640.webp 640w, assets/img/hojas-1280.webp 1280w, assets/img/hojas-1536.webp 1536w",
+          "anchos": [
+            640,
+            1280,
+            1536
+          ],
+          "usada": true
+        },
+        {
+          "proveedor": "openverse/wikimedia",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Salvia-darcyi-Guaven-Salbei-leaves-ulimw-2024.jpg",
+          "pagina": "https://commons.wikimedia.org/w/index.php?curid=154771738",
+          "autor": "Ulimw",
+          "licencia": "CC CC0 1.0",
+          "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en/",
+          "atribucion": "\"Salvia-darcyi-Guaven-Salbei-leaves-ulimw-2024\" by Ulimw is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/deed.en/.",
+          "titulo": "Salvia-darcyi-Guaven-Salbei-leaves-ulimw-2024",
+          "ancho": 3024,
+          "alto": 4032,
+          "requiere_atribucion": false,
+          "consulta": "sage plant leaves",
+          "letra": "b",
+          "original": "recursos/candidatos/hojas/b.jpg",
+          "web": [
+            "assets/img/hojas-b-640.webp",
+            "assets/img/hojas-b-1280.webp",
+            "assets/img/hojas-b-1920.webp"
+          ],
+          "kb": [
+            112,
+            343,
+            456
+          ],
+          "medidas_original": [
+            3024,
+            4032
+          ],
+          "srcset": "assets/img/hojas-b-640.webp 640w, assets/img/hojas-b-1280.webp 1280w, assets/img/hojas-b-1920.webp 1920w",
+          "anchos": [
+            640,
+            1280,
+            1920
+          ],
+          "usada": false
+        },
+        {
+          "proveedor": "openverse/rawpixel",
+          "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAyL2xyL3djenZ2Nm5nNDItaW1hZ2UuanBn.jpg",
+          "pagina": "https://www.rawpixel.com/image/13968533/image-flower-plant-grass",
+          "autor": "desconocido",
+          "licencia": "CC CC0 1.0",
+          "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "atribucion": "\"Seven different types sage (Salvia\" is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+          "titulo": "Seven different types sage (Salvia",
+          "ancho": 2286,
+          "alto": 3101,
+          "requiere_atribucion": false,
+          "consulta": "sage plant leaves",
+          "letra": "c",
+          "original": "recursos/candidatos/hojas/c.webp",
+          "web": [
+            "assets/img/hojas-c-640.webp",
+            "assets/img/hojas-c-755.webp"
+          ],
+          "kb": [
+            72,
+            142
+          ],
+          "medidas_original": [
+            755,
+            1024
+          ],
+          "srcset": "assets/img/hojas-c-640.webp 640w, assets/img/hojas-c-755.webp 755w",
+          "anchos": [
+            640,
+            755
+          ],
+          "usada": false
+        }
+      ],
+      "estado": "lista",
+      "notas": []
+    },
+    "sillon": {
+      "id": "sillon",
+      "fuente": "banco",
+      "proposito": "Tratamientos: el espacio clínico, limpio y luminoso",
+      "alt": "Sillón dental en un consultorio luminoso (imagen ilustrativa)",
+      "ilustrativa": true,
+      "candidatos": [
+        {
+          "proveedor": "openverse/rawpixel",
+          "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L2xvYzIwMTY4NTEzMjktaW1hZ2UuanBn.jpg",
+          "pagina": "https://www.rawpixel.com/image/6997026/sb-johnston-dentist-interior",
+          "autor": "libraryofcongress",
+          "licencia": "CC CC0 1.0",
+          "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "atribucion": "\"S.B. Johnston, Dentist; interior\" by libraryofcongress is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+          "titulo": "S.B. Johnston, Dentist; interior",
+          "ancho": 7106,
+          "alto": 5489,
+          "requiere_atribucion": false,
+          "consulta": "dentist office interior",
+          "letra": "a",
+          "original": "recursos/candidatos/sillon/a.webp",
+          "web": [
+            "assets/img/sillon-640.webp",
+            "assets/img/sillon-1024.webp"
+          ],
+          "kb": [
+            26,
+            51
+          ],
+          "medidas_original": [
+            1024,
+            791
+          ],
+          "srcset": "assets/img/sillon-640.webp 640w, assets/img/sillon-1024.webp 1024w",
+          "anchos": [
+            640,
+            1024
+          ],
+          "usada": false
+        },
+        {
+          "proveedor": "openverse/rawpixel",
+          "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9zdGF0aWMvaW1hZ2Uvd2Vic2l0ZS8yMDIyLTA0L2xyL2Zyb2ZmaWNlX2RlbnRpc3RfMTYzOTY3NS1pbWFnZS1reWJiMGZxci5qcGc.jpg",
+          "pagina": "https://www.rawpixel.com/image/6020787/dental-clinic-free-public-domain-cc0-photo",
+          "autor": "desconocido",
+          "licencia": "CC CC0 1.0",
+          "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "atribucion": "\"Dental clinic\" is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+          "titulo": "Dental clinic",
+          "ancho": 3616,
+          "alto": 2421,
+          "requiere_atribucion": false,
+          "consulta": "dentist office interior",
+          "letra": "b",
+          "original": "recursos/candidatos/sillon/b.webp",
+          "web": [
+            "assets/img/sillon-b-640.webp",
+            "assets/img/sillon-b-1024.webp"
+          ],
+          "kb": [
+            23,
+            42
+          ],
+          "medidas_original": [
+            1024,
+            686
+          ],
+          "srcset": "assets/img/sillon-b-640.webp 640w, assets/img/sillon-b-1024.webp 1024w",
+          "anchos": [
+            640,
+            1024
+          ],
+          "usada": true
+        },
+        {
+          "proveedor": "openverse/rawpixel",
+          "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAzL2ZsNTExNDkyMjY1MzktaW1hZ2UuanBn.jpg",
+          "pagina": "https://www.rawpixel.com/image/8786461/image-face-art-vintage",
+          "autor": "desconocido",
+          "licencia": "CC CC0 1.0",
+          "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "atribucion": "\"Der Irrthum. Abstract: Interior view\" is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+          "titulo": "Der Irrthum. Abstract: Interior view",
+          "ancho": 2952,
+          "alto": 2368,
+          "requiere_atribucion": false,
+          "consulta": "dentist office interior",
+          "letra": "c",
+          "original": "recursos/candidatos/sillon/c.webp",
+          "web": [
+            "assets/img/sillon-c-640.webp",
+            "assets/img/sillon-c-1024.webp"
+          ],
+          "kb": [
+            44,
+            95
+          ],
+          "medidas_original": [
+            1024,
+            821
+          ],
+          "srcset": "assets/img/sillon-c-640.webp 640w, assets/img/sillon-c-1024.webp 1024w",
+          "anchos": [
+            640,
+            1024
+          ],
+          "usada": false
+        }
+      ],
+      "estado": "lista",
+      "notas": []
+    },
+    "instrumentos": {
+      "id": "instrumentos",
+      "fuente": "banco",
+      "proposito": "Precisión: detalle de instrumental",
+      "alt": "Instrumental dental ordenado sobre una bandeja (imagen ilustrativa)",
+      "ilustrativa": true,
+      "candidatos": [
+        {
+          "proveedor": "openverse/rawpixel",
+          "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvaXMxNTU3Mi1pbWFnZS1rd3Z5Z2xydi5qcGc.jpg",
+          "pagina": "https://www.rawpixel.com/image/5927085/photo-image-public-domain-brush-free",
+          "autor": "desconocido",
+          "licencia": "CC CC0 1.0",
+          "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "atribucion": "\"Free close dentist toothbrush image\" is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+          "titulo": "Free close dentist toothbrush image",
+          "ancho": 5000,
+          "alto": 3333,
+          "requiere_atribucion": false,
+          "consulta": "dental tools close up",
+          "letra": "a",
+          "original": "recursos/candidatos/instrumentos/a.webp",
+          "web": [
+            "assets/img/instrumentos-640.webp",
+            "assets/img/instrumentos-1024.webp"
+          ],
+          "kb": [
+            7,
+            12
+          ],
+          "medidas_original": [
+            1024,
+            683
+          ],
+          "srcset": "assets/img/instrumentos-640.webp 640w, assets/img/instrumentos-1024.webp 1024w",
+          "anchos": [
+            640,
+            1024
+          ],
+          "usada": true
+        },
+        {
+          "proveedor": "openverse/rawpixel",
+          "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZnJtaXJyb3JfZGVudGlzdF9pbnN0cnVtZW50c18xMjkyNTIwLWltYWdlLWt5YmQ2ejZ5LmpwZw.jpg",
+          "pagina": "https://www.rawpixel.com/image/6035003/photo-image-public-domain-free",
+          "autor": "desconocido",
+          "licencia": "CC CC0 1.0",
+          "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "atribucion": "\"Closeup dental instrument\" is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+          "titulo": "Closeup dental instrument",
+          "ancho": 5472,
+          "alto": 3648,
+          "requiere_atribucion": false,
+          "consulta": "dental instruments",
+          "letra": "b",
+          "original": "recursos/candidatos/instrumentos/b.webp",
+          "web": [
+            "assets/img/instrumentos-b-640.webp",
+            "assets/img/instrumentos-b-1024.webp"
+          ],
+          "kb": [
+            16,
+            61
+          ],
+          "medidas_original": [
+            1024,
+            683
+          ],
+          "srcset": "assets/img/instrumentos-b-640.webp 640w, assets/img/instrumentos-b-1024.webp 1024w",
+          "anchos": [
+            640,
+            1024
+          ],
+          "usada": false
+        },
+        {
+          "proveedor": "openverse/rawpixel",
+          "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZnJkZW50aXN0X2RlbnRhbF9pbnN0cnVtZW50c18xNTE0Njg5LWltYWdlLWt5YmR4MDVjLmpwZw.jpg",
+          "pagina": "https://www.rawpixel.com/image/6039079/dental-instrument-free-public-domain-cc0-photo",
+          "autor": "desconocido",
+          "licencia": "CC CC0 1.0",
+          "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "atribucion": "\"Dental instrument\" is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+          "titulo": "Dental instrument",
+          "ancho": 5184,
+          "alto": 3456,
+          "requiere_atribucion": false,
+          "consulta": "dental instruments",
+          "letra": "c",
+          "original": "recursos/candidatos/instrumentos/c.webp",
+          "web": [
+            "assets/img/instrumentos-c-640.webp",
+            "assets/img/instrumentos-c-1024.webp"
+          ],
+          "kb": [
+            22,
+            37
+          ],
+          "medidas_original": [
+            1024,
+            683
+          ],
+          "srcset": "assets/img/instrumentos-c-640.webp 640w, assets/img/instrumentos-c-1024.webp 1024w",
+          "anchos": [
+            640,
+            1024
+          ],
+          "usada": false
+        }
+      ],
+      "estado": "lista",
+      "notas": []
+    },
+    "manos": {
+      "id": "manos",
+      "fuente": "banco",
+      "proposito": "Cuidado humano sin mostrar pacientes",
+      "alt": "Manos sosteniendo una taza con luz cálida",
+      "ilustrativa": true,
+      "candidatos": [
+        {
+          "proveedor": "openverse/wordpress",
+          "url": "https://pd.w.org/2025/10/38268f260b0bcd7a0.41855499-1536x2048.jpg",
+          "pagina": "https://wordpress.org/photos/photo/38268f260b/",
+          "autor": "appealdahal",
+          "licencia": "CC CC0 1.0",
+          "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "atribucion": "\"A human hand holding a light coloured flower with green leafy background.\" by appealdahal is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+          "titulo": "A human hand holding a light coloured flower with green leafy background.",
+          "ancho": 1536,
+          "alto": 2048,
+          "requiere_atribucion": false,
+          "etiquetas": "flower green leaf hand petal watch",
+          "consulta": "hand holding a green leafy",
+          "letra": "a",
+          "original": "recursos/candidatos/manos/a.jpg",
+          "web": [
+            "assets/img/manos-640.webp",
+            "assets/img/manos-1280.webp",
+            "assets/img/manos-1536.webp"
+          ],
+          "kb": [
+            48,
+            123,
+            170
+          ],
+          "medidas_original": [
+            1536,
+            2048
+          ],
+          "srcset": "assets/img/manos-640.webp 640w, assets/img/manos-1280.webp 1280w, assets/img/manos-1536.webp 1536w",
+          "anchos": [
+            640,
+            1280,
+            1536
+          ],
+          "usada": false
+        },
+        {
+          "proveedor": "openverse/wordpress",
+          "url": "https://pd.w.org/2026/05/4066a0d86f8a001c1.01216008-1536x2048.jpg",
+          "pagina": "https://wordpress.org/photos/photo/4066a0d86f/",
+          "autor": "appealdahal",
+          "licencia": "CC CC0 1.0",
+          "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "atribucion": "\"A hand holding a small daisy-like flower with a yellow center and white petals against a blurred green leafy background.\" by appealdahal is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+          "titulo": "A hand holding a small daisy-like flower with a yellow center and white petals against a blurred green leafy background.",
+          "ancho": 1536,
+          "alto": 2048,
+          "requiere_atribucion": false,
+          "etiquetas": "#NepalPhotoFestival2026 finger flower hand petal",
+          "consulta": "hand holding a green leafy",
+          "letra": "b",
+          "original": "recursos/candidatos/manos/b.jpg",
+          "web": [
+            "assets/img/manos-b-640.webp",
+            "assets/img/manos-b-1280.webp",
+            "assets/img/manos-b-1536.webp"
+          ],
+          "kb": [
+            25,
+            63,
+            90
+          ],
+          "medidas_original": [
+            1536,
+            2048
+          ],
+          "srcset": "assets/img/manos-b-640.webp 640w, assets/img/manos-b-1280.webp 1280w, assets/img/manos-b-1536.webp 1536w",
+          "anchos": [
+            640,
+            1280,
+            1536
+          ],
+          "usada": true
+        },
+        {
+          "proveedor": "openverse/wordpress",
+          "url": "https://pd.w.org/2026/05/6426a195cf5e0ffc5.74086794-1536x2048.jpg",
+          "pagina": "https://wordpress.org/photos/photo/6426a195cf/",
+          "autor": "appealdahal",
+          "licencia": "CC CC0 1.0",
+          "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "atribucion": "\"Close-up of a hand holding a green flower bud against a blurred backdrop of leafy plants and a building.\" by appealdahal is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+          "titulo": "Close-up of a hand holding a green flower bud against a blurred backdrop of leafy plants and a building.",
+          "ancho": 1536,
+          "alto": 2048,
+          "requiere_atribucion": false,
+          "etiquetas": "#NepalPhotoFestival2026 leaf petal",
+          "consulta": "hand holding a green leafy",
+          "letra": "c",
+          "original": "recursos/candidatos/manos/c.jpg",
+          "web": [
+            "assets/img/manos-c-640.webp",
+            "assets/img/manos-c-1280.webp",
+            "assets/img/manos-c-1536.webp"
+          ],
+          "kb": [
+            32,
+            93,
+            134
+          ],
+          "medidas_original": [
+            1536,
+            2048
+          ],
+          "srcset": "assets/img/manos-c-640.webp 640w, assets/img/manos-c-1280.webp 1280w, assets/img/manos-c-1536.webp 1536w",
+          "anchos": [
+            640,
+            1280,
+            1536
+          ],
+          "usada": false
+        }
+      ],
+      "estado": "lista",
+      "notas": [
+        "descartada por el filtro de seguridad: portrait man two swords his"
+      ]
+    },
+    "agua": {
+      "id": "agua",
+      "fuente": "banco",
+      "proposito": "Un minuto para respirar: superficie quieta",
+      "alt": "Superficie de agua en calma",
+      "ilustrativa": true,
+      "candidatos": [
+        {
+          "proveedor": "openverse/stocksnap",
+          "url": "https://cdn.stocksnap.io/img-thumbs/960w/OWLMHGF5IT.jpg",
+          "pagina": "https://stocksnap.io/photo/sun-lake-OWLMHGF5IT",
+          "autor": "Mike Moloney",
+          "licencia": "CC CC0 1.0",
+          "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "atribucion": "\"Sun Lake\" by Mike Moloney is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+          "titulo": "Sun Lake",
+          "ancho": 8256,
+          "alto": 5504,
+          "requiere_atribucion": false,
+          "etiquetas": "backgrounds calm cloud horizon lake landscape nature outdoors park peaceful reflection river sky sun sunlight tranquil travel vacation water",
+          "consulta": "calm water reflects clouds",
+          "letra": "a",
+          "original": "recursos/candidatos/agua/a.jpg",
+          "web": [
+            "assets/img/agua-640.webp",
+            "assets/img/agua-960.webp"
+          ],
+          "kb": [
+            37,
+            72
+          ],
+          "medidas_original": [
+            960,
+            640
+          ],
+          "srcset": "assets/img/agua-640.webp 640w, assets/img/agua-960.webp 960w",
+          "anchos": [
+            640,
+            960
+          ],
+          "usada": false
+        },
+        {
+          "proveedor": "openverse/stocksnap",
+          "url": "https://cdn.stocksnap.io/img-thumbs/960w/VJDHGHXWF1.jpg",
+          "pagina": "https://stocksnap.io/photo/lake-reflection-VJDHGHXWF1",
+          "autor": "Tim Sullivan",
+          "licencia": "CC CC0 1.0",
+          "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "atribucion": "\"Lake Reflection\" by Tim Sullivan is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+          "titulo": "Lake Reflection",
+          "ancho": 6016,
+          "alto": 4016,
+          "requiere_atribucion": false,
+          "etiquetas": "autumn calm clouds day fall forest green lake landscape leaves mirror nature outdoor reflection river scenic shore shoreline sky sunlight tranquility tree trees view water",
+          "consulta": "calm water reflects clouds",
+          "letra": "b",
+          "original": "recursos/candidatos/agua/b.jpg",
+          "web": [
+            "assets/img/agua-b-640.webp",
+            "assets/img/agua-b-960.webp"
+          ],
+          "kb": [
+            52,
+            121
+          ],
+          "medidas_original": [
+            960,
+            641
+          ],
+          "srcset": "assets/img/agua-b-640.webp 640w, assets/img/agua-b-960.webp 960w",
+          "anchos": [
+            640,
+            960
+          ],
+          "usada": true
+        },
+        {
+          "proveedor": "openverse/stocksnap",
+          "url": "https://cdn.stocksnap.io/img-thumbs/960w/KKYE2I2DBB.jpg",
+          "pagina": "https://stocksnap.io/photo/dramatic-sunset-KKYE2I2DBB",
+          "autor": "Travel Adventures",
+          "licencia": "CC CC0 1.0",
+          "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "atribucion": "\"Dramatic Sunset\" by Travel Adventures is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+          "titulo": "Dramatic Sunset",
+          "ancho": 6016,
+          "alto": 4016,
+          "requiere_atribucion": false,
+          "etiquetas": "background calm clouds dramatic dusk environment evening golden lake land landscape natural nature pink reflection scenic serene silhouette sky sunrise sunset water",
+          "consulta": "calm water reflects clouds",
+          "letra": "c",
+          "original": "recursos/candidatos/agua/c.jpg",
+          "web": [
+            "assets/img/agua-c-640.webp",
+            "assets/img/agua-c-960.webp"
+          ],
+          "kb": [
+            14,
+            33
+          ],
+          "medidas_original": [
+            960,
+            641
+          ],
+          "srcset": "assets/img/agua-c-640.webp 640w, assets/img/agua-c-960.webp 960w",
+          "anchos": [
+            640,
+            960
+          ],
+          "usada": false
+        }
+      ],
+      "estado": "lista",
+      "notas": []
+    },
+    "nino": {
+      "id": "nino",
+      "fuente": "banco",
+      "proposito": "Odontopediatría: infancia y cepillado, sin rostros",
+      "alt": "Cepillos de dientes de bambú en un vaso",
+      "ilustrativa": true,
+      "candidatos": [
+        {
+          "proveedor": "openverse/rawpixel",
+          "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvbG9jMjAxNzc4MTg0Mi1pbWFnZS5qcGc.jpg",
+          "pagina": "https://www.rawpixel.com/image/12171832/image-face-hand-person",
+          "autor": "libraryofcongress",
+          "licencia": "CC CC0 1.0",
+          "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "atribucion": "\"child wiping hands washing. Note\" by libraryofcongress is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+          "titulo": "child wiping hands washing. Note",
+          "ancho": 10396,
+          "alto": 13523,
+          "requiere_atribucion": false,
+          "etiquetas": "art face hand person sword toothbrush vintage wood",
+          "consulta": "toothbrush",
+          "letra": "a",
+          "original": "recursos/candidatos/nino/a.webp",
+          "web": [
+            "assets/img/nino-640.webp",
+            "assets/img/nino-787.webp"
+          ],
+          "kb": [
+            40,
+            65
+          ],
+          "medidas_original": [
+            787,
+            1024
+          ],
+          "srcset": "assets/img/nino-640.webp 640w, assets/img/nino-787.webp 787w",
+          "anchos": [
+            640,
+            787
+          ],
+          "usada": false
+        },
+        {
+          "proveedor": "openverse/rawpixel",
+          "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAyL2xyL3djcGQ2bnhodjUtaW1hZ2UuanBn.jpg",
+          "pagina": "https://www.rawpixel.com/image/14000636/plate-li-surgery-the-cavities-the-face-and-throat",
+          "autor": "desconocido",
+          "licencia": "CC CC0 1.0",
+          "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "atribucion": "\"Plate LI. Surgery cavities face\" is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+          "titulo": "Plate LI. Surgery cavities face",
+          "ancho": 5068,
+          "alto": 6571,
+          "requiere_atribucion": false,
+          "etiquetas": "anatomy surgery anatomy throat art cartoon face person throat toothbrush",
+          "consulta": "toothbrush",
+          "letra": "b",
+          "original": "recursos/candidatos/nino/b.webp",
+          "web": [
+            "assets/img/nino-b-640.webp",
+            "assets/img/nino-b-790.webp"
+          ],
+          "kb": [
+            45,
+            78
+          ],
+          "medidas_original": [
+            790,
+            1024
+          ],
+          "srcset": "assets/img/nino-b-640.webp 640w, assets/img/nino-b-790.webp 790w",
+          "anchos": [
+            640,
+            790
+          ],
+          "usada": false
+        },
+        {
+          "proveedor": "openverse/rawpixel",
+          "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHgxMTc1OTk3LWltYWdlLWt3eXIwM214LmpwZw.jpg",
+          "pagina": "https://www.rawpixel.com/image/5960632/free-public-domain-cc0-photo",
+          "autor": "desconocido",
+          "licencia": "CC CC0 1.0",
+          "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "atribucion": "This work is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+          "titulo": null,
+          "ancho": 4020,
+          "alto": 6036,
+          "requiere_atribucion": false,
+          "etiquetas": "elegance flower meadow garden tools lily sea grass single flower toothbrush",
+          "consulta": "toothbrush",
+          "letra": "c",
+          "original": "recursos/candidatos/nino/c.webp",
+          "web": [
+            "assets/img/nino-c-640.webp",
+            "assets/img/nino-c-682.webp"
+          ],
+          "kb": [
+            9,
+            11
+          ],
+          "medidas_original": [
+            682,
+            1024
+          ],
+          "srcset": "assets/img/nino-c-640.webp 640w, assets/img/nino-c-682.webp 682w",
+          "anchos": [
+            640,
+            682
+          ],
+          "usada": false
+        }
+      ],
+      "estado": "lista",
+      "notas": []
+    }
+  },
+  "actualizado": "2026-10-18 16:18",
+  "demo": true
+}
