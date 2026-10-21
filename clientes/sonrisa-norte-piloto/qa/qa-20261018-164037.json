@@ -1,0 +1,270 @@
+{
+  "slug": "sonrisa-norte-piloto",
+  "fecha": "2026-10-18 16:40:37",
+  "aprobadas": 35,
+  "fallidas_criticas": 0,
+  "advertencias": 1,
+  "no_ejecutadas": 1,
+  "veredicto": "APTO CON AJUSTES",
+  "resultados": [
+    {
+      "id": "existe",
+      "prueba": "El sitio tiene index.html",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "lang",
+      "prueba": "Idioma declarado (<html lang>)",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "title",
+      "prueba": "Título único por página",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "description",
+      "prueba": "Meta descripción",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "viewport",
+      "prueba": "Meta viewport (móvil)",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "h1",
+      "prueba": "Exactamente un h1 por página",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "alt",
+      "prueba": "Imágenes con texto alternativo",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "labels",
+      "prueba": "Campos de formulario con etiqueta",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "enlaces",
+      "prueba": "Enlaces y recursos internos existen",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "rutas_locales",
+      "prueba": "Sin rutas del equipo local",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "secretos",
+      "prueba": "Sin claves ni contraseñas en el sitio",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "pendientes",
+      "prueba": "Sin marcadores [PENDIENTE] (datos que faltan del cliente)",
+      "estado": "fallida",
+      "severidad": "advertencia",
+      "detalle": "agenda.html (3), index.html (5), primera-visita.html (8), privacidad.html (7), tratamientos.html (8)"
+    },
+    {
+      "id": "movimiento",
+      "prueba": "Respeta movimiento reducido",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "foco",
+      "prueba": "Estilos de foco de teclado",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "imagenes_peso",
+      "prueba": "Imágenes de menos de 400 KB",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "codigo_peso",
+      "prueba": "Código propio de menos de 1500 KB",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": "164 KB"
+    },
+    {
+      "id": "cdn_versiones",
+      "prueba": "Bibliotecas externas con versión fija",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "whatsapp",
+      "prueba": "Enlaces de WhatsApp con número válido",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "seo_sitio",
+      "prueba": "SEO técnico del sitio (robots, sitemap, canonical, Open Graph, 404)",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "privacidad",
+      "prueba": "Política de privacidad donde se recogen datos",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "demo_noindex",
+      "prueba": "Sitio demostrativo marcado como no indexable",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "demo_aviso",
+      "prueba": "La demo avisa que usa datos de ejemplo",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "tipografia",
+      "prueba": "Tipografía del brief aplicada con variables CSS",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": "Familias en el sitio: figtree, fraunces, iowan old style"
+    },
+    {
+      "id": "desborde",
+      "prueba": "Sin scroll horizontal en 390, 820 y 1440 px",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "consola",
+      "prueba": "Errores de JavaScript en consola",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "recursos",
+      "prueba": "Todos los recursos del sitio cargan (sin 404)",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "imagenes_nav",
+      "prueba": "Imágenes visibles en el navegador",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "navegador",
+      "prueba": "Capturas reales para la revisión visual",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": "31 capturas (primera pantalla, páginas completas y secciones). La valoración estética la hace la crítica Signature."
+    },
+    {
+      "id": "fuentes_reales",
+      "prueba": "Tipografías aplicadas en el navegador",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": "h1: Fraunces, \"Iowan Old Style\", Georgia, serif · texto: Figtree, \"Segoe UI\", system-ui, sans-serif · cargadas: Figtree, Fraunces"
+    },
+    {
+      "id": "contraste",
+      "prueba": "Contraste de color medido (WCAG AA) en textos reales",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": "189 textos medidos"
+    },
+    {
+      "id": "tactil",
+      "prueba": "Objetivos táctiles de al menos 24 px en móvil",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "ocultos",
+      "prueba": "Ningún contenido queda invisible tras recorrer la página",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": "0 elementos con texto siguen con opacidad 0"
+    },
+    {
+      "id": "movimiento_reducido",
+      "prueba": "Con «reducir movimiento» todo el contenido se ve, sin animaciones largas",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": "ocultos: 0, animaciones en curso: 0"
+    },
+    {
+      "id": "riqueza_visual",
+      "prueba": "La portada tiene imágenes o recursos visuales además de texto y SVG simples",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": "4 imágenes de mapa de bits, 2 fondos de sección distintos. Una página sin fotografía ni cambios de plano suele verse plana: revisar en la crítica."
+    },
+    {
+      "id": "cls_imagenes",
+      "prueba": "Imágenes con dimensiones (evita saltos de diseño)",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": "0 sin width/height ni aspect-ratio"
+    },
+    {
+      "id": "peso_imagenes_nav",
+      "prueba": "Ninguna imagen transferida pesa más de 400 KB",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "lighthouse",
+      "prueba": "Lighthouse / Core Web Vitals medidos",
+      "estado": "no_ejecutada",
+      "severidad": "",
+      "detalle": "Requiere navegador: ejecuta 'fabrica navegador <cliente>' (o el motor lo hace solo) o Claude lo revisa con sus herramientas de navegador"
+    }
+  ]
+}

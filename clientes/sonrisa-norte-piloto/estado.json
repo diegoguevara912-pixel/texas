@@ -1,0 +1,58 @@
+{
+  "slug": "sonrisa-norte-piloto",
+  "nombre": "Sonrisa Norte",
+  "sector": "Clínica odontológica",
+  "tipo_web": "Web corporativa",
+  "estado_negocio": "demostrativo",
+  "demo": true,
+  "etapa": "vista_previa",
+  "creado": "2026-10-18 16:07",
+  "actualizado": "2026-10-18 16:40",
+  "historial": [
+    {
+      "etapa": "brief",
+      "fecha": "2026-10-18 16:07",
+      "nota": "Proyecto creado desde el brief"
+    },
+    {
+      "etapa": "analisis",
+      "fecha": "2026-10-18 16:40",
+      "nota": "Piloto Signature 2.0 (sesión de Claude con los motores 2.0)"
+    },
+    {
+      "etapa": "concepto",
+      "fecha": "2026-10-18 16:40",
+      "nota": "Piloto Signature 2.0 (sesión de Claude con los motores 2.0)"
+    },
+    {
+      "etapa": "identidad",
+      "fecha": "2026-10-18 16:40",
+      "nota": "Piloto Signature 2.0 (sesión de Claude con los motores 2.0)"
+    },
+    {
+      "etapa": "desarrollo",
+      "fecha": "2026-10-18 16:40",
+      "nota": "Piloto Signature 2.0 (sesión de Claude con los motores 2.0)"
+    },
+    {
+      "etapa": "recursos",
+      "fecha": "2026-10-18 16:40",
+      "nota": "Piloto Signature 2.0 (sesión de Claude con los motores 2.0)"
+    },
+    {
+      "etapa": "calidad",
+      "fecha": "2026-10-18 16:40",
+      "nota": "Piloto Signature 2.0 (sesión de Claude con los motores 2.0)"
+    },
+    {
+      "etapa": "vista_previa",
+      "fecha": "2026-10-18 16:40",
+      "nota": "Piloto Signature 2.0 (sesión de Claude con los motores 2.0)"
+    }
+  ],
+  "pendientes": [],
+  "publicacion": {
+    "estado": "no publicado",
+    "versiones": []
+  }
+}

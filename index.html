@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src 'self'; base-uri 'none'; form-action 'none'">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex">
+  <meta name="description" content="WEBS: páginas web a medida, aplicaciones web y automatizaciones para negocios en Honduras.">
+  <title>WEBS · Portafolio y productos</title>
+  <style>
+    :root{--bg:#f7f5f0;--fg:#1c1b19;--muted:#6b675f;--card:#fff;--line:#e4dfd4;--acc:#9a6b2f}
+    @media (prefers-color-scheme:dark){:root{--bg:#141412;--fg:#f1ede4;--muted:#a39d91;--card:#1d1c19;--line:#2e2c27;--acc:#d4a55e}}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+    main{max-width:1080px;margin:0 auto;padding:48px 16px 64px}
+    header p.k{letter-spacing:.18em;text-transform:uppercase;font-size:12px;color:var(--acc);margin:0 0 8px}
+    h1{font:600 clamp(36px,6vw,64px)/1.05 Georgia,"Times New Roman",serif;margin:0 0 16px}
+    .lead{font-size:19px;color:var(--muted);max-width:640px;margin:0}
+    .aviso{margin:24px 0 0;padding:12px 16px;border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:8px;background:var(--card);font-size:14px}
+    h2{font:600 26px/1.2 Georgia,serif;margin:56px 0 16px}
+    .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+    .card img{width:100%;aspect-ratio:16/10;object-fit:cover;object-position:top;border-bottom:1px solid var(--line);display:block}
+    .card div{padding:16px 18px 18px}
+    .card h3{margin:0 0 4px;font-size:18px}
+    .tag{display:inline-block;font-size:12px;padding:2px 8px;border-radius:99px;border:1px solid var(--line);color:var(--muted);margin:0 6px 8px 0}
+    .card p{margin:0 0 10px;color:var(--muted);font-size:15px}
+    a{color:var(--acc)}
+    table{width:100%;border-collapse:collapse;font-size:15px;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+    th,td{text-align:left;padding:10px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+    th{font-size:13px;color:var(--muted);font-weight:600}
+    .tbl{overflow-x:auto}
+    footer{margin-top:56px;padding-top:16px;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="k">WEBS · Honduras</p>
+    <h1>Páginas web que trabajan para el negocio.</h1>
+    <p class="lead">Webs a medida con dirección creativa propia, aplicaciones web y automatizaciones. Aquí está todo lo que la empresa ha construido: sus productos, sus proyectos y cómo trabaja.</p>
+    <p class="aviso"><b>En desarrollo.</b> Nada de esta página ni de sus proyectos está publicado. Los clientes que se muestran son ficticios y sus fotos son ilustrativas.</p>
+  </header>
+
+  <h2>Productos</h2>
+  <div class="grid">
+    <article class="card">
+      <img src="productos/fabrica-web-signature/docs/piloto-sonrisa-norte/despues-escritorio.png" alt="Página generada por la Fábrica Web Signature para una clínica dental ficticia" loading="lazy">
+      <div>
+        <h3>Fábrica Web Signature</h3>
+        <span class="tag">v2.0.0</span><span class="tag">Python</span><span class="tag">24 pruebas</span>
+        <p>Del brief de un negocio a una web Signature: investigación, tres conceptos, identidad, código, pruebas en Chrome, crítica independiente y paquete para Hostinger. Se maneja desde Signature Studio.</p>
+        <a href="productos/fabrica-web-signature/README.md">Ver el producto</a>
+      </div>
+    </article>
+    <article class="card">
+      <img src="productos/autolote-ultra-premium/docs/capturas/escritorio-01-inicio-hero.png" alt="Inicio del showroom 3D del autolote" loading="lazy">
+      <div>
+        <h3>Autolote Ultra Premium 3D</h3>
+        <span class="tag">v0.1.0</span><span class="tag">Node · React · three.js</span><span class="tag">35 pruebas</span>
+        <p>Showroom digital 3D para un autolote: catálogo, ficha por vehículo, simulador de financiamiento, formularios y panel administrativo con cuentas.</p>
+        <a href="productos/autolote-ultra-premium/README.md">Ver el producto</a>
+      </div>
+    </article>
+  </div>
+
+  <h2>Proyectos de clientes</h2>
+  <div class="grid">
+    <article class="card">
+      <img src="clientes/sonrisa-norte-piloto/qa/capturas/pagina-index-movil.png" alt="Versión móvil del piloto de Sonrisa Norte" loading="lazy">
+      <div>
+        <h3>Sonrisa Norte · «Una pausa luminosa»</h3>
+        <span class="tag">Ficticio</span><span class="tag">Clínica dental</span>
+        <p>Piloto de Signature 2.0: paleta con contraste medido, fotos CC0, movimiento propio. QA 35 aprobadas, 0 críticas.</p>
+        <a href="clientes/sonrisa-norte-piloto/sitio/index.html">Abrir el sitio</a> · <a href="clientes/README.md">Todos los clientes</a>
+      </div>
+    </article>
+  </div>
+
+  <h2>Cómo trabajamos</h2>
+  <div class="tbl"><table>
+    <thead><tr><th>Etapa</th><th>Qué pasa</th><th>Quién</th></tr></thead>
+    <tbody>
+      <tr><td>Brief</td><td>Se llenan los datos reales del negocio; lo no confirmado queda como pendiente.</td><td>Diego y el cliente</td></tr>
+      <tr><td>Generación</td><td>Investigación, conceptos, identidad y código con los 15 agentes especialistas.</td><td>Fábrica + Claude Code</td></tr>
+      <tr><td>Calidad</td><td>Pruebas automáticas, revisión en Chrome y crítica de otro agente que no toca el sitio.</td><td>Fábrica</td></tr>
+      <tr><td>Aprobación</td><td>Diego revisa, pide cambios y aprueba.</td><td>Diego</td></tr>
+      <tr><td>Publicación</td><td>Solo con la autorización escrita de Diego.</td><td>Diego</td></tr>
+    </tbody>
+  </table></div>
+
+  <footer>
+    © 2026 Diego Guevara · WEBS ·
+    <a href="privacidad/index.html">Privacidad</a> ·
+    <a href="docs/README.md">Documentación</a> ·
+    <a href="SECURITY.md">Seguridad</a>
+  </footer>
+</main>
+</body>
+</html>

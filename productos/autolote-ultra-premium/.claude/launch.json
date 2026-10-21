@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "autolote-preview",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["server/index.js"],
+      "env": { "PUBLIC_URL": "http://localhost:3001", "PORT": "3001" },
+      "port": 3001
+    }
+  ]
+}

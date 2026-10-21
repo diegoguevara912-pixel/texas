@@ -1,0 +1,34 @@
+{
+  "slug": "sonrisa-norte-piloto",
+  "comparaciones": [
+    {
+      "puntuacion": 50,
+      "detalle": {
+        "paleta": 1.0,
+        "tipografias": 1.0,
+        "composicion": 0.0,
+        "hero": 0.0,
+        "secciones": 0.33,
+        "animaciones": 0.0,
+        "concepto": 0.0
+      },
+      "con": "sonrisa-norte",
+      "nivel": "REVISAR"
+    },
+    {
+      "puntuacion": 4,
+      "detalle": {
+        "paleta": 0.14,
+        "tipografias": 0.0,
+        "composicion": 0.0,
+        "hero": 0.0,
+        "secciones": 0.0,
+        "animaciones": 0.0,
+        "concepto": 0.0
+      },
+      "con": "equinsa-energy",
+      "nivel": "diferenciado"
+    }
+  ],
+  "veredicto": "REVISAR"
+}

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Motor de movimiento · demostración técnica</title>
+<link rel="stylesheet" href="signature-motion.css">
+<style>
+  /* Página de prueba del motor (no es un diseño de cliente). */
+  :root { --mov-duracion: 900ms; --mov-escalonado: 90ms; }
+  body { margin: 0; font: 18px/1.5 system-ui, sans-serif; background: #f2f0eb; color: #1b1b1b; }
+  header { position: sticky; top: 0; padding: 14px 24px; background: #f2f0ebee; z-index: 5; }
+  section { min-height: 90vh; padding: 12vh 8vw; box-sizing: border-box; }
+  h1 { font-size: clamp(2.6rem, 7vw, 6rem); line-height: 1; margin: 0 0 .4em; }
+  .tarjetas { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; }
+  .tarjetas div { background: #fff; padding: 28px; border-radius: 12px; }
+  .bloque { height: 280px; background: linear-gradient(135deg, #2c4a3e, #8aa596); border-radius: 12px; }
+  .escena-caja { width: 40vmin; height: 40vmin; background: #c0563a; border-radius: 50%; margin: 30vh auto 0;
+    transform: scale(calc(0.4 + var(--sm-p, 0) * 1.2)) rotate(calc(var(--sm-p, 0) * 180deg)); }
+  .boton { display: inline-block; padding: 16px 28px; background: #1b1b1b; color: #fff; border-radius: 999px; text-decoration: none; }
+</style>
+</head>
+<body>
+<header data-sm="cabecera">Motor de movimiento 2.0</header>
+<section>
+  <h1 data-sm="lineas" id="titulo">Una experiencia que se revela con <em>intención</em>.</h1>
+  <p data-sm="aparecer" data-sm-retraso="300">Texto que aparece después del titular.</p>
+  <a class="boton" data-sm="magnetico" href="#fin">Botón magnético</a>
+</section>
+<section data-sm-fondo="#14231c" data-sm-texto="#f2f0eb">
+  <div class="tarjetas" data-sm-grupo>
+    <div>Uno</div><div>Dos</div><div>Tres</div><div>Cuatro</div>
+  </div>
+  <div class="bloque" data-sm="mascara" style="margin-top:40px"></div>
+  <p>Cifra de ejemplo: <strong data-sm="contador" data-sm-hasta="1250" id="contador">0</strong></p>
+</section>
+<section class="sm-escena" data-sm="progreso" data-sm-modo="dentro" style="--sm-alto:220vh; padding:0" id="escena">
+  <div class="sm-escena__fija"><div class="escena-caja"></div></div>
+</section>
+<section id="fin">
+  <svg data-sm="trazo" width="300" height="120" viewBox="0 0 300 120" fill="none" stroke="#1b1b1b" stroke-width="3"><path d="M10 100 C 80 10, 160 10, 290 100"/></svg>
+  <div data-sm="parallax" data-sm-velocidad="0.2" class="bloque" style="width:200px;height:120px"></div>
+</section>
+<script src="signature-motion.js"></script>
+</body>
+</html>

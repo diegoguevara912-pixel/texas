@@ -1,0 +1,335 @@
+{
+  "slug": "sonrisa-norte-piloto",
+  "fecha": "2026-10-18 16:40:37",
+  "marca_tiempo": 1792363159.6831036,
+  "navegador": "chrome.exe",
+  "medidas": {
+    "movil": {
+      "ancho": 390,
+      "vista": 390,
+      "alto": 7682,
+      "h1": "Fraunces, \"Iowan Old Style\", Georgia, serif",
+      "texto": "Figtree, \"Segoe UI\", system-ui, sans-serif",
+      "titulo": "Sonrisa Norte · Clínica dental en San Pedro Sula (demo)",
+      "cargadas": [
+        "Figtree",
+        "Figtree",
+        "Figtree",
+        "Fraunces",
+        "Fraunces"
+      ],
+      "imgsRotas": []
+    },
+    "tableta": {
+      "ancho": 820,
+      "vista": 820,
+      "alto": 9230,
+      "h1": "Fraunces, \"Iowan Old Style\", Georgia, serif",
+      "texto": "Figtree, \"Segoe UI\", system-ui, sans-serif",
+      "titulo": "Sonrisa Norte · Clínica dental en San Pedro Sula (demo)",
+      "cargadas": [
+        "Figtree",
+        "Figtree",
+        "Figtree",
+        "Fraunces",
+        "Fraunces"
+      ],
+      "imgsRotas": []
+    },
+    "escritorio": {
+      "ancho": 1440,
+      "vista": 1440,
+      "alto": 7131,
+      "h1": "Fraunces, \"Iowan Old Style\", Georgia, serif",
+      "texto": "Figtree, \"Segoe UI\", system-ui, sans-serif",
+      "titulo": "Sonrisa Norte · Clínica dental en San Pedro Sula (demo)",
+      "cargadas": [
+        "Figtree",
+        "Figtree",
+        "Figtree",
+        "Fraunces",
+        "Fraunces"
+      ],
+      "imgsRotas": []
+    }
+  },
+  "metricas": {
+    "movil": {
+      "contraste_medidos": 93,
+      "contraste_fallos": [],
+      "objetivos_pequenos": [],
+      "imagenes_bitmap": 4,
+      "imagenes_sin_dimensiones": 0,
+      "imagenes_pesadas": [],
+      "ocultos_tras_recorrer": 0,
+      "secciones": [
+        {
+          "x": 0,
+          "y": 109,
+          "width": 390,
+          "height": 1096,
+          "fondo": "rgba(0, 0, 0, 0)",
+          "id": "manana"
+        },
+        {
+          "x": 0,
+          "y": 1204,
+          "width": 390,
+          "height": 1321,
+          "fondo": "rgb(34, 53, 43)",
+          "id": "sin-prisa"
+        },
+        {
+          "x": 0,
+          "y": 2525,
+          "width": 390,
+          "height": 1012,
+          "fondo": "rgba(0, 0, 0, 0)",
+          "id": "que-le-trae"
+        },
+        {
+          "x": 0,
+          "y": 3537,
+          "width": 390,
+          "height": 1327,
+          "fondo": "rgba(0, 0, 0, 0)",
+          "id": "tratamientos"
+        },
+        {
+          "x": 0,
+          "y": 4864,
+          "width": 390,
+          "height": 1519,
+          "fondo": "rgb(34, 53, 43)",
+          "id": "respirar"
+        },
+        {
+          "x": 0,
+          "y": 6384,
+          "width": 390,
+          "height": 531,
+          "fondo": "rgba(0, 0, 0, 0)",
+          "id": "la-cita"
+        },
+        {
+          "x": 0,
+          "y": 6914,
+          "width": 390,
+          "height": 768,
+          "fondo": "rgb(34, 53, 43)",
+          "id": "cierre"
+        }
+      ],
+      "fondos_distintos": 2,
+      "peso_kb": 305
+    },
+    "escritorio": {
+      "contraste_medidos": 96,
+      "contraste_fallos": [],
+      "objetivos_pequenos": [],
+      "imagenes_bitmap": 4,
+      "imagenes_sin_dimensiones": 0,
+      "imagenes_pesadas": [],
+      "ocultos_tras_recorrer": 0,
+      "secciones": [
+        {
+          "x": 0,
+          "y": 109,
+          "width": 1440,
+          "height": 904,
+          "fondo": "rgba(0, 0, 0, 0)",
+          "id": "manana"
+        },
+        {
+          "x": 0,
+          "y": 1013,
+          "width": 1440,
+          "height": 1022,
+          "fondo": "rgb(34, 53, 43)",
+          "id": "sin-prisa"
+        },
+        {
+          "x": 0,
+          "y": 2035,
+          "width": 1440,
+          "height": 1087,
+          "fondo": "rgba(0, 0, 0, 0)",
+          "id": "que-le-trae"
+        },
+        {
+          "x": 0,
+          "y": 3122,
+          "width": 1440,
+          "height": 1079,
+          "fondo": "rgba(0, 0, 0, 0)",
+          "id": "tratamientos"
+        },
+        {
+          "x": 0,
+          "y": 4201,
+          "width": 1440,
+          "height": 1620,
+          "fondo": "rgb(34, 53, 43)",
+          "id": "respirar"
+        },
+        {
+          "x": 0,
+          "y": 5821,
+          "width": 1440,
+          "height": 619,
+          "fondo": "rgba(0, 0, 0, 0)",
+          "id": "la-cita"
+        },
+        {
+          "x": 0,
+          "y": 6440,
+          "width": 1440,
+          "height": 690,
+          "fondo": "rgb(34, 53, 43)",
+          "id": "cierre"
+        }
+      ],
+      "fondos_distintos": 2,
+      "peso_kb": 0
+    }
+  },
+  "movimiento_reducido": {
+    "ocultos": 0,
+    "animaciones": 0
+  },
+  "paginas": [
+    "index.html",
+    "404.html",
+    "agenda.html",
+    "creditos.html",
+    "primera-visita.html",
+    "privacidad.html",
+    "tratamientos.html"
+  ],
+  "capturas": [
+    "qa/capturas/auto-movil.png",
+    "qa/capturas/pagina-index-movil.png",
+    "qa/capturas/seccion-movil-01.png",
+    "qa/capturas/seccion-movil-02.png",
+    "qa/capturas/seccion-movil-03.png",
+    "qa/capturas/seccion-movil-04.png",
+    "qa/capturas/seccion-movil-05.png",
+    "qa/capturas/seccion-movil-06.png",
+    "qa/capturas/seccion-movil-07.png",
+    "qa/capturas/auto-tableta.png",
+    "qa/capturas/auto-escritorio.png",
+    "qa/capturas/pagina-index-escritorio.png",
+    "qa/capturas/seccion-escritorio-01.png",
+    "qa/capturas/seccion-escritorio-02.png",
+    "qa/capturas/seccion-escritorio-03.png",
+    "qa/capturas/seccion-escritorio-04.png",
+    "qa/capturas/seccion-escritorio-05.png",
+    "qa/capturas/seccion-escritorio-06.png",
+    "qa/capturas/seccion-escritorio-07.png",
+    "qa/capturas/pagina-404-escritorio.png",
+    "qa/capturas/pagina-agenda-escritorio.png",
+    "qa/capturas/pagina-creditos-escritorio.png",
+    "qa/capturas/pagina-primera-visita-escritorio.png",
+    "qa/capturas/pagina-privacidad-escritorio.png",
+    "qa/capturas/pagina-tratamientos-escritorio.png",
+    "qa/capturas/pagina-404-movil.png",
+    "qa/capturas/pagina-agenda-movil.png",
+    "qa/capturas/pagina-creditos-movil.png",
+    "qa/capturas/pagina-primera-visita-movil.png",
+    "qa/capturas/pagina-privacidad-movil.png",
+    "qa/capturas/pagina-tratamientos-movil.png"
+  ],
+  "resultados": [
+    {
+      "id": "desborde",
+      "prueba": "Sin scroll horizontal en 390, 820 y 1440 px",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "consola",
+      "prueba": "Errores de JavaScript en consola",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "recursos",
+      "prueba": "Todos los recursos del sitio cargan (sin 404)",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "imagenes_nav",
+      "prueba": "Imágenes visibles en el navegador",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "navegador",
+      "prueba": "Capturas reales para la revisión visual",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": "31 capturas (primera pantalla, páginas completas y secciones). La valoración estética la hace la crítica Signature."
+    },
+    {
+      "id": "fuentes_reales",
+      "prueba": "Tipografías aplicadas en el navegador",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": "h1: Fraunces, \"Iowan Old Style\", Georgia, serif · texto: Figtree, \"Segoe UI\", system-ui, sans-serif · cargadas: Figtree, Fraunces"
+    },
+    {
+      "id": "contraste",
+      "prueba": "Contraste de color medido (WCAG AA) en textos reales",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": "189 textos medidos"
+    },
+    {
+      "id": "tactil",
+      "prueba": "Objetivos táctiles de al menos 24 px en móvil",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "ocultos",
+      "prueba": "Ningún contenido queda invisible tras recorrer la página",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": "0 elementos con texto siguen con opacidad 0"
+    },
+    {
+      "id": "movimiento_reducido",
+      "prueba": "Con «reducir movimiento» todo el contenido se ve, sin animaciones largas",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": "ocultos: 0, animaciones en curso: 0"
+    },
+    {
+      "id": "riqueza_visual",
+      "prueba": "La portada tiene imágenes o recursos visuales además de texto y SVG simples",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": "4 imágenes de mapa de bits, 2 fondos de sección distintos. Una página sin fotografía ni cambios de plano suele verse plana: revisar en la crítica."
+    },
+    {
+      "id": "cls_imagenes",
+      "prueba": "Imágenes con dimensiones (evita saltos de diseño)",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": "0 sin width/height ni aspect-ratio"
+    },
+    {
+      "id": "peso_imagenes_nav",
+      "prueba": "Ninguna imagen transferida pesa más de 400 KB",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    }
+  ]
+}

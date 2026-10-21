@@ -1,0 +1,68 @@
+{
+  "_instrucciones": "Valores iniciales del negocio. Todo lo que empieza con 'PENDIENTE' es un marcador: reemplácelo aquí o desde el panel administrativo (Contenido > Negocio). Al ejecutar las migraciones, este archivo se copia a la base de datos solo si la configuración aún no existe; después, la fuente de verdad es el panel.",
+  "name": "PENDIENTE: Nombre del autolote",
+  "shortName": "PENDIENTE",
+  "logoUrl": null,
+  "slogan": "PENDIENTE: Eslogan",
+  "country": "Honduras",
+  "region": "PENDIENTE: Departamento",
+  "city": "PENDIENTE: Municipio o ciudad",
+  "address": "PENDIENTE: Dirección comercial",
+  "mapEmbedUrl": null,
+  "mapLinkUrl": null,
+  "whatsapp": null,
+  "whatsappDefaultMessage": "Hola, vi su inventario en la web y quisiera más información.",
+  "phone": null,
+  "email": null,
+  "social": {
+    "facebook": null,
+    "instagram": null,
+    "tiktok": null,
+    "youtube": null
+  },
+  "hours": [
+    { "days": "Lunes a viernes", "time": "PENDIENTE" },
+    { "days": "Sábado", "time": "PENDIENTE" },
+    { "days": "Domingo", "time": "PENDIENTE" }
+  ],
+  "brands": [],
+  "vehicleTypes": ["Sedán", "SUV", "Pick-up", "Hatchback", "Deportivo", "Van", "Coupé"],
+  "services": {
+    "visit": { "enabled": true, "label": "Visita al showroom", "description": "Agende una visita para ver los vehículos en persona." },
+    "testDrive": { "enabled": false, "label": "Prueba de manejo", "description": "PENDIENTE: confirmar si el autolote ofrece pruebas de manejo y sus condiciones." },
+    "reservation": { "enabled": false, "label": "Reserva de vehículo", "description": "PENDIENTE: condiciones y monto de reserva autorizados." },
+    "inspection": { "enabled": false, "label": "Solicitud de inspección", "description": "PENDIENTE: confirmar si se permite inspección independiente." },
+    "financing": { "enabled": true, "label": "Solicitar financiamiento", "description": "Le orientamos con entidades financieras. No somos un banco ni garantizamos aprobación." },
+    "tradeIn": { "enabled": false, "label": "Recibimos su vehículo", "description": "PENDIENTE: confirmar si se aceptan vehículos como parte de pago." }
+  },
+  "benefits": [],
+  "brandColors": null,
+  "currency": { "code": "HNL", "symbol": "L", "locale": "es-HN", "secondary": { "code": "USD", "symbol": "$" } },
+  "designPreferences": "PENDIENTE: preferencias del propietario. Dirección inicial: concepto 'Atelier Nocturno' (ver docs/DIRECCION-ARTISTICA.md).",
+  "financing": {
+    "mode": "illustrative",
+    "authorizedAnnualRate": null,
+    "illustrativeAnnualRate": 12,
+    "minDownPaymentPercent": 20,
+    "terms": [12, 24, 36, 48, 60, 72],
+    "partnerBanks": [],
+    "disclaimer": "Simulación orientativa. No constituye aprobación crediticia, oferta contractual ni tasa de ninguna entidad financiera. Las condiciones finales las define la entidad que evalúe la solicitud."
+  },
+  "payments": {
+    "transfer": { "enabled": false, "accounts": [] },
+    "gateway": { "enabled": false, "provider": null, "testMode": true }
+  },
+  "legal": {
+    "companyLegalName": "PENDIENTE: Razón social",
+    "rtn": null,
+    "privacyContactEmail": null,
+    "dataRetentionMonths": 24
+  },
+  "analytics": {
+    "ga4Id": null,
+    "metaPixelId": null,
+    "searchConsoleVerification": null,
+    "requireConsent": true
+  },
+  "authorizedClaims": []
+}

@@ -1,0 +1,10 @@
+# Para cuando la fábrica se ponga en git. Los datos de clientes no van al repositorio de la fábrica.
+clients/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.zip
+negocio/
+.recall/
+.Rhistory

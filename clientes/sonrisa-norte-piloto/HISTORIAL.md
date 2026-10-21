@@ -1,0 +1,26 @@
+# Historial — Sonrisa Norte
+
+- 2026-10-18 16:07 — Proyecto creado desde el Brief Inteligente Signature.
+- 2026-10-18 16:07 — Piloto Signature 2.0 de sonrisa-norte: copia aislada para no tocar el original (etiqueta version-original-v1). Se reutiliza investigacion/analisis.md del original (mismo cliente ficticio).
+- 2026-10-18 16:13 — Imágenes: luz=lista, hojas=lista, sillon=lista, instrumentos=lista, manos=lista, agua=lista, nino=lista, lino=lista
+- 2026-10-18 16:15 — Imágenes: luz=lista, hojas=lista, sillon=lista, instrumentos=lista, manos=lista, agua=lista, nino=lista, lino=lista
+- 2026-10-18 16:18 — Imágenes: luz=lista, hojas=lista, sillon=lista, instrumentos=lista, manos=lista, agua=lista, nino=lista
+- 2026-10-18 16:21 — Pruebas de navegador (chrome.exe): 11 aprobadas, 2 fallidas, 31 capturas.
+- 2026-10-18 16:24 — Pruebas de navegador (chrome.exe): 13 aprobadas, 0 fallidas, 31 capturas.
+- 2026-10-18 16:27 — Pruebas de navegador (chrome.exe): 13 aprobadas, 0 fallidas, 31 capturas.
+- 2026-10-18 16:29 — Pruebas de navegador (chrome.exe): 13 aprobadas, 0 fallidas, 31 capturas.
+- 2026-10-18 16:30 — Pruebas de navegador (chrome.exe): 13 aprobadas, 0 fallidas, 31 capturas.
+- 2026-10-18 16:32 — Pruebas de navegador (chrome.exe): 13 aprobadas, 0 fallidas, 31 capturas.
+- 2026-10-18 16:32 — QA automático: APTO CON AJUSTES (0 críticas, 3 advertencias).
+- 2026-10-18 16:35 — Pruebas de navegador (chrome.exe): 13 aprobadas, 0 fallidas, 31 capturas.
+- 2026-10-18 16:35 — QA automático: APTO CON AJUSTES (0 críticas, 1 advertencias).
+- 2026-10-18 16:35 — Similitud creativa: REVISAR.
+- 2026-10-18 16:40 — Pruebas de navegador (chrome.exe): 13 aprobadas, 0 fallidas, 31 capturas.
+- 2026-10-18 16:40 — QA automático: APTO CON AJUSTES (0 críticas, 1 advertencias).
+- 2026-10-18 16:40 — Etapa → B. Negocio comprendido. Piloto Signature 2.0 (sesión de Claude con los motores 2.0)
+- 2026-10-18 16:40 — Etapa → C. Dirección creativa (3 conceptos). Piloto Signature 2.0 (sesión de Claude con los motores 2.0)
+- 2026-10-18 16:40 — Etapa → D. Sistema visual. Piloto Signature 2.0 (sesión de Claude con los motores 2.0)
+- 2026-10-18 16:40 — Etapa → E. Web construida. Piloto Signature 2.0 (sesión de Claude con los motores 2.0)
+- 2026-10-18 16:40 — Etapa → F. Recursos incorporados. Piloto Signature 2.0 (sesión de Claude con los motores 2.0)
+- 2026-10-18 16:40 — Etapa → G. Pruebas. Piloto Signature 2.0 (sesión de Claude con los motores 2.0)
+- 2026-10-18 16:40 — Etapa → I. Vista previa entregada. Piloto Signature 2.0 (sesión de Claude con los motores 2.0)

@@ -1,0 +1,296 @@
+{
+  "slug": "sonrisa-norte",
+  "fecha": "2026-10-18 16:37:12",
+  "marca_tiempo": 1792362972.2077205,
+  "navegador": "chrome.exe",
+  "medidas": {
+    "movil": {
+      "ancho": 390,
+      "vista": 390,
+      "alto": 4456,
+      "h1": "Fraunces, \"Iowan Old Style\", Georgia, serif",
+      "texto": "Figtree, \"Segoe UI\", system-ui, sans-serif",
+      "titulo": "Sonrisa Norte · Clínica dental en San Pedro Sula (demo)",
+      "cargadas": [
+        "Figtree",
+        "Figtree",
+        "Figtree",
+        "Fraunces",
+        "Fraunces"
+      ],
+      "imgsRotas": []
+    },
+    "tableta": {
+      "ancho": 820,
+      "vista": 820,
+      "alto": 4277,
+      "h1": "Fraunces, \"Iowan Old Style\", Georgia, serif",
+      "texto": "Figtree, \"Segoe UI\", system-ui, sans-serif",
+      "titulo": "Sonrisa Norte · Clínica dental en San Pedro Sula (demo)",
+      "cargadas": [
+        "Figtree",
+        "Figtree",
+        "Figtree",
+        "Fraunces",
+        "Fraunces"
+      ],
+      "imgsRotas": []
+    },
+    "escritorio": {
+      "ancho": 1440,
+      "vista": 1440,
+      "alto": 3773,
+      "h1": "Fraunces, \"Iowan Old Style\", Georgia, serif",
+      "texto": "Figtree, \"Segoe UI\", system-ui, sans-serif",
+      "titulo": "Sonrisa Norte · Clínica dental en San Pedro Sula (demo)",
+      "cargadas": [
+        "Figtree",
+        "Figtree",
+        "Figtree",
+        "Fraunces",
+        "Fraunces"
+      ],
+      "imgsRotas": []
+    }
+  },
+  "metricas": {
+    "movil": {
+      "contraste_medidos": 59,
+      "contraste_fallos": [],
+      "objetivos_pequenos": [],
+      "imagenes_bitmap": 0,
+      "imagenes_sin_dimensiones": 0,
+      "imagenes_pesadas": [],
+      "ocultos_tras_recorrer": 0,
+      "secciones": [
+        {
+          "x": 0,
+          "y": 109,
+          "width": 390,
+          "height": 1347,
+          "fondo": "rgba(0, 0, 0, 0)",
+          "id": "portada"
+        },
+        {
+          "x": 0,
+          "y": 1456,
+          "width": 390,
+          "height": 701,
+          "fondo": "rgb(237, 229, 214)",
+          "id": "sin-prisa"
+        },
+        {
+          "x": 0,
+          "y": 2157,
+          "width": 390,
+          "height": 1000,
+          "fondo": "rgba(0, 0, 0, 0)",
+          "id": "indice-tratamientos"
+        },
+        {
+          "x": 0,
+          "y": 3157,
+          "width": 390,
+          "height": 545,
+          "fondo": "rgba(0, 0, 0, 0)",
+          "id": "tres-decisiones"
+        },
+        {
+          "x": 0,
+          "y": 3702,
+          "width": 390,
+          "height": 754,
+          "fondo": "rgb(36, 54, 44)",
+          "id": "cierre"
+        }
+      ],
+      "fondos_distintos": 3,
+      "peso_kb": 63
+    },
+    "escritorio": {
+      "contraste_medidos": 60,
+      "contraste_fallos": [],
+      "objetivos_pequenos": [],
+      "imagenes_bitmap": 0,
+      "imagenes_sin_dimensiones": 0,
+      "imagenes_pesadas": [],
+      "ocultos_tras_recorrer": 0,
+      "secciones": [
+        {
+          "x": 0,
+          "y": 109,
+          "width": 1440,
+          "height": 964,
+          "fondo": "rgba(0, 0, 0, 0)",
+          "id": "portada"
+        },
+        {
+          "x": 0,
+          "y": 1073,
+          "width": 1440,
+          "height": 515,
+          "fondo": "rgb(237, 229, 214)",
+          "id": "sin-prisa"
+        },
+        {
+          "x": 0,
+          "y": 1588,
+          "width": 1440,
+          "height": 995,
+          "fondo": "rgba(0, 0, 0, 0)",
+          "id": "indice-tratamientos"
+        },
+        {
+          "x": 0,
+          "y": 2583,
+          "width": 1440,
+          "height": 570,
+          "fondo": "rgba(0, 0, 0, 0)",
+          "id": "tres-decisiones"
+        },
+        {
+          "x": 0,
+          "y": 3152,
+          "width": 1440,
+          "height": 621,
+          "fondo": "rgb(36, 54, 44)",
+          "id": "cierre"
+        }
+      ],
+      "fondos_distintos": 3,
+      "peso_kb": 0
+    }
+  },
+  "movimiento_reducido": {
+    "ocultos": 0,
+    "animaciones": 0
+  },
+  "paginas": [
+    "index.html",
+    "404.html",
+    "agenda.html",
+    "primera-visita.html",
+    "privacidad.html",
+    "tratamientos.html"
+  ],
+  "capturas": [
+    "auto-movil.png",
+    "pagina-index-movil.png",
+    "seccion-movil-01.png",
+    "seccion-movil-02.png",
+    "seccion-movil-03.png",
+    "seccion-movil-04.png",
+    "seccion-movil-05.png",
+    "auto-tableta.png",
+    "auto-escritorio.png",
+    "pagina-index-escritorio.png",
+    "seccion-escritorio-01.png",
+    "seccion-escritorio-02.png",
+    "seccion-escritorio-03.png",
+    "seccion-escritorio-04.png",
+    "seccion-escritorio-05.png",
+    "pagina-404-escritorio.png",
+    "pagina-agenda-escritorio.png",
+    "pagina-primera-visita-escritorio.png",
+    "pagina-privacidad-escritorio.png",
+    "pagina-tratamientos-escritorio.png",
+    "pagina-404-movil.png",
+    "pagina-agenda-movil.png",
+    "pagina-primera-visita-movil.png",
+    "pagina-privacidad-movil.png",
+    "pagina-tratamientos-movil.png"
+  ],
+  "resultados": [
+    {
+      "id": "desborde",
+      "prueba": "Sin scroll horizontal en 390, 820 y 1440 px",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "consola",
+      "prueba": "Errores de JavaScript en consola",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "recursos",
+      "prueba": "Todos los recursos del sitio cargan (sin 404)",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "imagenes_nav",
+      "prueba": "Imágenes visibles en el navegador",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "navegador",
+      "prueba": "Capturas reales para la revisión visual",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": "25 capturas (primera pantalla, páginas completas y secciones). La valoración estética la hace la crítica Signature."
+    },
+    {
+      "id": "fuentes_reales",
+      "prueba": "Tipografías aplicadas en el navegador",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": "h1: Fraunces, \"Iowan Old Style\", Georgia, serif · texto: Figtree, \"Segoe UI\", system-ui, sans-serif · cargadas: Figtree, Fraunces"
+    },
+    {
+      "id": "contraste",
+      "prueba": "Contraste de color medido (WCAG AA) en textos reales",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": "119 textos medidos"
+    },
+    {
+      "id": "tactil",
+      "prueba": "Objetivos táctiles de al menos 24 px en móvil",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    },
+    {
+      "id": "ocultos",
+      "prueba": "Ningún contenido queda invisible tras recorrer la página",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": "0 elementos con texto siguen con opacidad 0"
+    },
+    {
+      "id": "movimiento_reducido",
+      "prueba": "Con «reducir movimiento» todo el contenido se ve, sin animaciones largas",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": "ocultos: 0, animaciones en curso: 0"
+    },
+    {
+      "id": "riqueza_visual",
+      "prueba": "La portada tiene imágenes o recursos visuales además de texto y SVG simples",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": "0 imágenes de mapa de bits, 3 fondos de sección distintos. Una página sin fotografía ni cambios de plano suele verse plana: revisar en la crítica."
+    },
+    {
+      "id": "cls_imagenes",
+      "prueba": "Imágenes con dimensiones (evita saltos de diseño)",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": "0 sin width/height ni aspect-ratio"
+    },
+    {
+      "id": "peso_imagenes_nav",
+      "prueba": "Ninguna imagen transferida pesa más de 400 KB",
+      "estado": "aprobada",
+      "severidad": "",
+      "detalle": ""
+    }
+  ]
+}

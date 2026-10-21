@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="es-HN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agendar cita dental · Sonrisa Norte (demo)</title>
+  <meta name="description" content="Pida su cita en Sonrisa Norte, San Pedro Sula: elija tratamiento, para quién y cuándo. El mensaje se envía por WhatsApp y la clínica confirma el horario.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="canonical" href="agenda.html">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_HN">
+  <meta property="og:title" content="Agendar cita · Sonrisa Norte (demo)">
+  <meta property="og:description" content="Tres decisiones y su solicitud de cita queda lista para WhatsApp. Sitio de demostración.">
+  <meta name="theme-color" content="#F6F1E7">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..500;1,9..144,300..500&amp;family=Figtree:wght@400;500;600&amp;display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..500;1,9..144,300..500&amp;family=Figtree:wght@400;500;600&amp;display=swap"></noscript>
+  <link rel="stylesheet" href="base/base.css">
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/sitio.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="assets/js/config.js" defer></script>
+  <script src="base/signature-motion.js" defer></script>
+  <script src="assets/js/sitio.js" defer></script>
+  <script src="assets/js/agenda.js" defer></script>
+</head>
+<body>
+  <a class="saltar-contenido" href="#contenido">Saltar al contenido</a>
+  <p class="aviso-demo"><span class="aviso-punto" aria-hidden="true"></span>Sitio de demostración<span class="aviso-largo">. Sonrisa Norte es una clínica ficticia: los contactos están pendientes y los procesos son ejemplos</span><span class="aviso-corto">: clínica ficticia, datos de ejemplo</span>.</p>
+
+  <header class="cabecera">
+    <div class="cabecera-interior">
+      <a class="logo" href="index.html" aria-label="Sonrisa Norte, inicio">
+        <svg class="logo-simbolo" viewBox="0 0 40 36" width="34" height="31" aria-hidden="true" focusable="false"><path d="M7 33V22C7 11 12.5 5 20 5s13 6 13 17v11" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M13.5 33v-9c0-7 2.8-11 6.5-11s6.5 4 6.5 11v9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity=".55"/><circle class="logo-punto" cx="20" cy="5" r="3"/></svg>
+        <span class="logo-texto">Sonrisa <em>Norte</em></span>
+      </a>
+      <div class="cabecera-acciones">
+        <button class="boton-indice" type="button" aria-expanded="false" aria-controls="indice"><span class="boton-indice-lineas" aria-hidden="true"></span>Índice</button>
+      </div>
+    </div>
+    <nav id="indice" class="indice" aria-label="Índice del sitio">
+      <div class="indice-interior">
+        <button class="indice-cerrar" type="button">Cerrar <span aria-hidden="true">×</span></button>
+        <ul class="indice-lista">
+          <li style="--i:0"><a href="index.html"><span class="indice-nombre">Inicio</span><span class="indice-desc">El arco y qué le trae</span></a></li>
+          <li style="--i:1"><a href="tratamientos.html"><span class="indice-nombre">Tratamientos</span><span class="indice-desc">Limpieza, ortodoncia invisible, implantes y niños</span></a></li>
+          <li style="--i:2"><a href="primera-visita.html"><span class="indice-nombre">Primera visita</span><span class="indice-desc">Paso a paso, y un minuto para respirar</span></a></li>
+          <li style="--i:3"><a href="agenda.html" aria-current="page"><span class="indice-nombre">Agendar cita</span><span class="indice-desc">Tres decisiones y confirmación por WhatsApp</span></a></li>
+        </ul>
+        <p class="indice-pie"><a href="privacidad.html">Política de privacidad</a></p>
+      </div>
+    </nav>
+  </header>
+
+  <main id="contenido" class="agenda contenedor">
+    <div class="agenda-intro">
+      <p class="rotulo">Agendar cita</p>
+      <h1>Escriba su cita <em>como una frase</em>.</h1>
+      <p class="pagina-bajada">Complete los espacios. Al enviar, se abre WhatsApp con el mensaje listo y la clínica le confirma el horario.</p>
+      <ol class="agenda-pasos">
+        <li>Complete la frase.</li>
+        <li>Revise el mensaje.</li>
+        <li>Envíelo por WhatsApp; la clínica confirma.</li>
+      </ol>
+      <p class="agenda-nota">Esto es una <strong>solicitud</strong>, no una reserva confirmada. Por favor, no escriba detalles médicos delicados: se conversan en consulta.</p>
+    </div>
+
+    <form class="formulario-cita" data-agenda novalidate aria-describedby="form-ayuda">
+      <p id="form-ayuda" class="solo-lectores">Formulario de solicitud de cita. Todos los campos son obligatorios salvo el comentario.</p>
+      <div class="form-errores" role="alert" tabindex="-1" hidden></div>
+
+      <fieldset class="frase">
+        <legend class="solo-lectores">Datos de la cita</legend>
+        <span class="frase-texto" aria-hidden="true">Hola, soy</span>
+        <span class="campo campo-nombre">
+          <label for="nombre" class="solo-lectores">Su nombre</label>
+          <input id="nombre" name="nombre" type="text" autocomplete="name" required minlength="2" maxlength="60" placeholder="su nombre">
+        </span><span class="frase-texto" aria-hidden="true">.</span>
+        <span class="frase-texto" aria-hidden="true">Quisiera pedir</span>
+        <span class="campo">
+          <label for="tratamiento" class="solo-lectores">Tratamiento</label>
+          <select id="tratamiento" name="tratamiento" required>
+            <option value="">elija una opción</option>
+            <option value="limpieza">una limpieza y revisión</option>
+            <option value="ortodoncia">una valoración de ortodoncia invisible</option>
+            <option value="implantes">una valoración de implantes</option>
+            <option value="ninos">una consulta de odontopediatría</option>
+            <option value="valoracion">una valoración general (no sé qué necesito)</option>
+          </select>
+        </span>
+        <span class="frase-texto" aria-hidden="true">para</span>
+        <span class="campo">
+          <label for="paciente" class="solo-lectores">Para quién es la cita</label>
+          <select id="paciente" name="paciente" required>
+            <option value="mí">mí</option>
+            <option value="mi hijo o hija">mi hijo o hija</option>
+            <option value="otra persona">otra persona</option>
+          </select>
+        </span><span class="frase-texto" aria-hidden="true">,</span>
+        <span class="frase-texto" aria-hidden="true">de preferencia el</span>
+        <span class="campo">
+          <label for="fecha" class="solo-lectores">Fecha preferida</label>
+          <input id="fecha" name="fecha" type="date" required>
+        </span>
+        <span class="frase-texto" aria-hidden="true">por la</span>
+        <span class="campo">
+          <label for="franja" class="solo-lectores">Franja horaria preferida</label>
+          <select id="franja" name="franja" required>
+            <option value="mañana">mañana</option>
+            <option value="tarde">tarde</option>
+          </select>
+        </span><span class="frase-texto" aria-hidden="true">.</span>
+      </fieldset>
+
+      <div class="form-extra">
+        <label for="comentario">Algo que debamos saber <span class="opcional">(opcional)</span></label>
+        <textarea id="comentario" name="comentario" rows="3" maxlength="300" placeholder="Por ejemplo: me pongo nervioso, prefiero que me expliquen todo antes."></textarea>
+
+        <div class="consentimiento">
+          <input id="acepto" name="acepto" type="checkbox" required>
+          <label for="acepto">Acepto que mis datos se usen solo para gestionar esta cita, según la <a href="privacidad.html">política de privacidad</a>.</label>
+        </div>
+
+        <input type="text" name="sitio_web" class="solo-lectores" tabindex="-1" autocomplete="off" aria-hidden="true">
+      </div>
+
+      <div class="vista-mensaje">
+        <p class="vista-mensaje-titulo">Así le llegará a la clínica</p>
+        <p class="vista-mensaje-texto" data-vista-mensaje>Complete la frase para ver su mensaje.</p>
+      </div>
+
+      <button class="boton boton-primario boton-ancho" type="submit">Enviar mi solicitud por WhatsApp</button>
+      <div class="form-resultado" role="status" aria-live="polite"></div>
+    </form>
+  </main>
+
+  <footer class="cierre">
+    <div class="contenedor">
+      <p class="cierre-frase">Le esperamos <em>con calma</em>.</p>
+      <dl class="cierre-datos">
+        <div><dt>Dirección</dt><dd><span class="pendiente">[PENDIENTE: dirección en San Pedro Sula]</span></dd></div>
+        <div><dt>Horario</dt><dd><span class="pendiente">[PENDIENTE: días y horas de atención]</span></dd></div>
+        <div><dt>WhatsApp</dt><dd><span class="pendiente">[PENDIENTE: número]</span></dd></div>
+      </dl>
+      <nav class="cierre-nav" aria-label="Pie de página">
+        <a href="tratamientos.html">Tratamientos</a>
+        <a href="primera-visita.html">Primera visita</a>
+        <a href="agenda.html" aria-current="page">Agendar cita</a>
+        <a href="privacidad.html">Privacidad</a>
+      </nav>
+      <p class="cierre-legal">Sonrisa Norte es una clínica ficticia creada como demostración por Fábrica Web Signature. Logotipo e ilustraciones: propuesta original.</p>
+    </div>
+  </footer>
+</body>
+</html>

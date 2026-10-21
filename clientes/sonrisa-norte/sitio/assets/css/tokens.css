@@ -1,0 +1,69 @@
+/* Sonrisa Norte — «El arco que explica». Todas las decisiones de identidad viven aquí. */
+:root {
+  /* color (contrastes en diseno/identidad.md) */
+  --color-fondo: #F6F1E7;          /* marfil (brief) */
+  --color-superficie: #EDE5D6;     /* marfil hondo */
+  --color-texto: #1F2A24;          /* tinta de pino */
+  --color-texto-suave: #4A5650;    /* pizarra verde */
+  --color-marca: #5E7D6A;          /* salvia (brief): ilustración y texto grande */
+  --color-acento: #3F5A4A;         /* salvia profunda: acciones */
+  --color-acento-hover: #1F2A24;
+  --color-acento-texto: #FFFFFF;
+  --color-encia: #C9785C;          /* terracota (brief): solo encía y logo */
+  --color-encia-texto: #9A4E36;    /* terracota profunda: rótulos */
+  --color-noche: #24362C;          /* musgo nocturno */
+  --color-salvia-clara: #B9CBBE;
+  --color-pieza: #FBF6EC;          /* esmalte de las piezas ilustradas (blanco puro = recién limpias) */
+  --color-borde: rgba(94, 125, 106, .35);
+  --color-borde-fuerte: #5E7D6A;
+  --color-foco: #3F5A4A;
+  --color-error: #A3362A;
+
+  /* tipografía */
+  --font-titulos: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --font-texto: "Figtree", "Segoe UI", system-ui, sans-serif;
+  --texto-xs: 0.8rem;
+  --texto-s: 0.9rem;
+  --texto-m: clamp(1.0625rem, 1rem + 0.25vw, 1.125rem);
+  --texto-l: clamp(1.2rem, 1.1rem + 0.5vw, 1.4rem);
+  --texto-xl: clamp(1.5rem, 1.3rem + 1vw, 2rem);
+  --texto-2xl: clamp(1.9rem, 1.5rem + 2vw, 2.9rem);
+  --texto-3xl: clamp(2.4rem, 1.8rem + 3vw, 4rem);
+  --texto-4xl: clamp(2.9rem, 2rem + 4.6vw, 5.4rem);
+  --interlineado-titulo: 1.05;
+  --interlineado-texto: 1.6;
+  --medida: 64ch;
+  --peso-titulo: 340;
+  --peso-texto: 400;
+  --peso-medio: 500;
+  --peso-fuerte: 600;
+
+  /* espacio y forma */
+  --espacio-1: 0.25rem;
+  --espacio-2: 0.5rem;
+  --espacio-3: 0.75rem;
+  --espacio-4: 1rem;
+  --espacio-5: 1.5rem;
+  --espacio-6: 2rem;
+  --espacio-7: 3rem;
+  --espacio-8: 4.5rem;
+  --espacio-9: clamp(4rem, 3rem + 5vw, 7rem);
+  --espacio-10: clamp(5rem, 3rem + 8vw, 10rem);
+  --margen: clamp(1.25rem, 5vw, 4rem);
+  --ancho-max: 1320px;
+  --radio-s: 6px;
+  --radio-m: 18px;
+  --radio-pastilla: 999px;
+  --borde: 1px solid var(--color-borde);
+  --sombra-1: 0 1px 2px rgba(31, 42, 36, .06), 0 8px 24px -12px rgba(31, 42, 36, .12);
+
+  /* movimiento */
+  --curva: cubic-bezier(.22, .61, .36, 1);
+  --duracion-corta: 220ms;
+  --duracion-media: 600ms;
+  --duracion-larga: 1100ms;
+  --respirar-duracion: 9s;
+  --revelar-distancia: 16px;
+  --revelar-duracion: .8s;
+  --revelar-curva: var(--curva);
+}

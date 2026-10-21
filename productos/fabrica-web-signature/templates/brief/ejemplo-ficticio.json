@@ -1,0 +1,14 @@
+{
+  "nombre_empresa": "Taller Ficticio Demo S. de R.L.",
+  "nombre_comercial": "Taller Ficticio Demo",
+  "sector": "Taller mecánico (EJEMPLO FICTICIO, NO ES UN CLIENTE)",
+  "pais": "Honduras",
+  "ciudad": "San Pedro Sula",
+  "descripcion_breve": "Negocio inventado solo para probar la fábrica. Ningún dato corresponde a una empresa real.",
+  "estado_negocio": "demostrativo",
+  "servicios_principales": "Mantenimiento preventivo\nDiagnóstico electrónico\nFrenos y suspensión",
+  "objetivos": ["Captar clientes", "Reservar citas"],
+  "tipo_web": "Landing page",
+  "whatsapp": "50400000000",
+  "funcionalidades": ["Chat de WhatsApp", "Agendamiento"]
+}

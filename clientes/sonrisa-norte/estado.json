@@ -1,0 +1,28 @@
+{
+  "slug": "sonrisa-norte",
+  "nombre": "Sonrisa Norte",
+  "sector": "Clínica odontológica",
+  "tipo_web": "Web corporativa",
+  "estado_negocio": "demostrativo",
+  "demo": true,
+  "etapa": "vista_previa",
+  "creado": "2026-10-17 23:33",
+  "actualizado": "2026-10-18 09:29",
+  "historial": [
+    {
+      "etapa": "brief",
+      "fecha": "2026-10-17 23:33",
+      "nota": "Proyecto creado desde el brief"
+    },
+    {
+      "etapa": "vista_previa",
+      "fecha": "2026-10-18 09:29",
+      "nota": "Generada por el motor (20261017-235556-676b)"
+    }
+  ],
+  "pendientes": [],
+  "publicacion": {
+    "estado": "no publicado",
+    "versiones": []
+  }
+}

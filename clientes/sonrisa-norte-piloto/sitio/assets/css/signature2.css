@@ -1,0 +1,141 @@
+/* Sonrisa Norte · piloto Signature 2.0 · «Una pausa luminosa».
+   Capa de diseño sobre sitio.css (que conserva los componentes funcionales: índice, selector, agenda, chat).
+   Contrastes medidos por el motor: ver diseno/identidad.md. */
+
+/* ---------- cabecera sobre la luz de portada */
+.cabecera { transition: transform var(--mov-duracion-corta) var(--mov-curva), background-color var(--mov-duracion-corta) var(--mov-curva); }
+
+/* ---------- Capítulo 1 · Mañana (portada) */
+.manana { position: relative; padding-block: clamp(2rem, 4vw, 4rem) var(--espacio-9); overflow: hidden; }
+.manana-reticula { display: grid; gap: var(--espacio-7); align-items: end; }
+.manana h1 { font-size: var(--texto-5xl); line-height: .98; letter-spacing: -0.022em; font-variation-settings: "opsz" 144, "SOFT" 50; font-weight: 320; max-width: 9.5ch; margin: 0 0 var(--espacio-6); }
+.manana h1 em { color: var(--color-acento); font-weight: 300; }
+.manana .rotulo { margin-bottom: var(--espacio-5); }
+.manana-bajada { font-size: var(--texto-l); line-height: 1.5; color: var(--color-texto-suave); max-width: 34ch; }
+.manana .portada-acciones { margin-top: var(--espacio-6); }
+.ventana { position: relative; margin: 0; }
+.ventana-marco { position: relative; border-radius: var(--arco-radio); overflow: hidden; aspect-ratio: 4 / 5; background: var(--color-superficie); }
+.ventana-marco img { width: 100%; height: 118%; object-fit: cover; display: block; margin-top: -9%; }
+.ventana::before { content: ""; position: absolute; left: 50%; top: -14px; width: 12px; height: 12px; margin-left: -6px; border-radius: 50%; background: var(--color-encia); z-index: 1; }
+.ventana figcaption, .pie-ilustrativo { font-size: var(--texto-xs); color: var(--color-texto-suave); margin-top: var(--espacio-3); letter-spacing: .01em; }
+.manana-dato { display: none; }
+@media (min-width: 960px) {
+  .manana { min-height: calc(100svh - 120px); display: flex; align-items: center; }
+  .manana-reticula { grid-template-columns: 7fr 5fr; gap: clamp(2rem, 5vw, 6rem); width: 100%; }
+  .ventana { align-self: stretch; }
+  .ventana-marco { aspect-ratio: auto; height: min(78svh, 760px); }
+  .manana-dato { display: block; position: absolute; right: calc(100% + 1.2rem); bottom: 2.5rem; writing-mode: vertical-rl; transform: rotate(180deg);
+    font-size: var(--texto-xs); letter-spacing: .14em; text-transform: uppercase; color: var(--color-texto-suave); white-space: nowrap; }
+}
+
+/* ---------- índice de capítulos (navegación de la página) */
+.capitulos { display: none; }
+@media (min-width: 1180px) {
+  .js .capitulos { display: block; position: fixed; left: clamp(.8rem, 1.6vw, 1.6rem); top: 50%; transform: translateY(-50%); z-index: 20; }
+  .capitulos ol { list-style: none; display: grid; gap: .35rem; }
+  .capitulos a { display: flex; align-items: center; gap: .7rem; min-height: 28px; text-decoration: none; color: currentColor; font-size: var(--texto-xs); letter-spacing: .04em; }
+  .capitulos .punto { width: 7px; height: 7px; border-radius: 50%; border: 1px solid currentColor; transition: transform var(--mov-duracion-corta) var(--mov-curva), background-color var(--mov-duracion-corta); }
+  .capitulos .nombre { opacity: 0; transform: translateX(-6px); transition: opacity var(--mov-duracion-corta), transform var(--mov-duracion-corta) var(--mov-curva); }
+  .capitulos a[aria-current="true"] .punto { background: currentColor; transform: scale(1.5); }
+  .capitulos a[aria-current="true"] .nombre, .capitulos a:hover .nombre, .capitulos a:focus-visible .nombre { opacity: 1; transform: none; }
+}
+
+/* ---------- Capítulo 2 · Sin prisa (noche) */
+.noche { background: var(--color-noche); color: var(--color-noche-texto); }
+.noche .rotulo, .noche .rotulo-demo { color: var(--color-noche-suave); }
+.noche .pendiente { background: rgba(243, 238, 227, .12); color: var(--color-noche-texto); border-color: rgba(243, 238, 227, .35); }
+.sin-prisa.noche { padding-block: var(--espacio-10); }
+.sin-prisa.noche h2 { font-size: var(--texto-gigante); line-height: 1.02; letter-spacing: -0.018em; max-width: 13ch; font-weight: 300; font-variation-settings: "opsz" 144; }
+.sin-prisa.noche h2 em { color: #D9B9A6; }
+.sin-prisa-lista li { border-top-color: rgba(243, 238, 227, .28); }
+.noche .sin-prisa-lista li { color: var(--color-noche-suave); font-size: var(--texto-l); line-height: 1.45; }
+.noche .sin-prisa-lista strong { color: var(--color-noche-texto); font-weight: 500; }
+.sin-prisa-foto { margin: 0; }
+.sin-prisa-foto .ventana-marco { aspect-ratio: 3 / 4; max-width: 420px; }
+.noche .ventana::before { background: #D9B9A6; }
+.noche .pie-ilustrativo { color: var(--color-noche-suave); }
+@media (min-width: 960px) {
+  .sin-prisa.noche .sin-prisa-reticula { grid-template-columns: 5fr 4fr 3fr; align-items: end; gap: clamp(2rem, 4vw, 5rem); }
+  .sin-prisa-foto { order: 3; align-self: start; margin-top: -2rem; }
+}
+
+/* ---------- Capítulo 3 · ¿Qué le trae? (el arco que explica) */
+.que-le-trae { padding-block: var(--espacio-10) var(--espacio-9); }
+.que-le-trae .seccion-cabeza h2 { font-size: var(--texto-3xl); max-width: 14ch; }
+.instrumento { background: var(--color-superficie); border-radius: 28px; padding: clamp(1.25rem, 4vw, 3.5rem); }
+.instrumento .selector-titulo { display: none; }
+@media (min-width: 960px) {
+  .instrumento .selector { display: grid; grid-template-columns: 1.1fr 1fr; gap: clamp(2rem, 5vw, 5rem); align-items: center; }
+  .instrumento .arco { grid-row: span 3; max-width: 520px; }
+}
+
+/* ---------- Capítulo 4 · Tratamientos con fotografía */
+.tratamientos-capitulo { padding-block: var(--espacio-9) var(--espacio-10); }
+.tratamientos-reticula { display: grid; gap: var(--espacio-7); }
+.tratamientos-foto { margin: 0; }
+.tratamientos-foto img { width: 100%; height: auto; display: block; border-radius: 4px; }
+@media (min-width: 960px) {
+  .tratamientos-reticula { grid-template-columns: 5fr 7fr; gap: clamp(2rem, 5vw, 6rem); align-items: start; }
+  .tratamientos-foto { position: sticky; top: 110px; }
+  .tratamientos-foto img { aspect-ratio: 4 / 5; object-fit: cover; }
+}
+.filas .fila { transition: background-color var(--mov-duracion-corta) var(--mov-curva), padding var(--mov-duracion-corta) var(--mov-curva); }
+@media (hover: hover) { .filas .fila:hover { background: var(--color-superficie); padding-inline: 1rem; } }
+
+/* ---------- Capítulo 5 · Respirar (escena ligada al scroll) */
+.respirar-escena { background: var(--color-noche); color: var(--color-noche-texto); }
+.respirar-escena .sm-escena__fija { display: grid; place-items: center; }
+.respirar-fondo { position: absolute; inset: 0; margin: 0; }
+.respirar-fondo img { width: 100%; height: 100%; object-fit: cover; opacity: .38; filter: saturate(.7); }
+.respirar-centro { position: relative; text-align: center; padding: var(--espacio-9) var(--margen); display: grid; justify-items: center; gap: var(--espacio-5); }
+.respirar-anillo { --fase: calc(1 - (2 * var(--sm-p, .5) - 1) * (2 * var(--sm-p, .5) - 1)); /* 0 → 1 → 0 */
+  width: clamp(180px, 36vmin, 380px); aspect-ratio: 1; border-radius: 50%; border: 1px solid rgba(243, 238, 227, .6);
+  background: radial-gradient(circle, rgba(217, 185, 166, .38), rgba(217, 185, 166, 0) 70%);
+  transform: scale(calc(.55 + var(--fase) * .45)); }
+.respirar-centro h2 { font-size: var(--texto-3xl); font-weight: 300; margin: 0; }
+.respirar-guia { font-size: var(--texto-l); color: var(--color-noche-suave); min-height: 1.6em; margin: 0; }
+.respirar-centro .enlace-suave { color: var(--color-noche-texto); }
+.sm-estatico .respirar-anillo, .sm-ligero .respirar-anillo { transform: none; }
+
+/* ---------- Capítulo 6 · La cita */
+.tres-decisiones { background: transparent; }
+.tres-decisiones .frase-muestra { font-size: var(--texto-gigante); line-height: 1.08; letter-spacing: -0.015em; font-weight: 300; }
+
+/* ---------- Cierre */
+.cierre { position: relative; overflow: hidden; }
+.cierre-frase { font-size: var(--texto-5xl) !important; line-height: .98; letter-spacing: -0.02em; }
+
+/* ---------- páginas interiores: cabecera con imagen */
+.cabecera-imagen { padding-block: var(--espacio-7) var(--espacio-8); }
+.cabecera-imagen-reticula { display: grid; gap: var(--espacio-6); align-items: end; }
+.cabecera-imagen h1 { font-size: var(--texto-gigante); line-height: 1; letter-spacing: -0.02em; font-weight: 320; max-width: 12ch; margin: 0; }
+.cabecera-imagen .ventana-marco { aspect-ratio: 16 / 10; border-radius: 4px; }
+@media (min-width: 960px) {
+  .cabecera-imagen-reticula { grid-template-columns: 6fr 6fr; gap: clamp(2rem, 5vw, 6rem); }
+  .cabecera-imagen .ventana-marco { aspect-ratio: 4 / 3; border-radius: var(--arco-radio); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .respirar-anillo { transform: none; }
+}
+
+/* ajustes tras la primera revisión con capturas */
+.que-le-trae .seccion-cabeza, .tratamientos-capitulo .seccion-cabeza { grid-template-columns: 1fr; align-items: start; }
+.que-le-trae .seccion-cabeza .rotulo { margin: 0; }
+/* en la columna de 7/12 las filas no caben en cuatro columnas: nombre arriba, texto y público debajo */
+@media (min-width: 960px) {
+  .tratamientos-capitulo .fila { grid-template-columns: 88px minmax(0, 1fr) auto; grid-template-areas: "arco nombre para" "arco texto texto"; row-gap: .35rem; align-items: center; }
+  .tratamientos-capitulo .fila-arco { grid-area: arco; width: 80px; }
+  .tratamientos-capitulo .fila-nombre { grid-area: nombre; }
+  .tratamientos-capitulo .fila-texto { grid-area: texto; }
+  .tratamientos-capitulo .fila-para { grid-area: para; }
+}
+@media (min-width: 960px) {
+  .tratamientos-capitulo .fila { grid-template-areas: "arco nombre" "arco texto" "arco para"; grid-template-columns: 88px minmax(0, 1fr); }
+  .tratamientos-capitulo .fila-para { text-align: left; }
+  .pagina-cabeza.cabecera-imagen { display: block; max-width: var(--ancho-max); }
+  .cabecera-imagen .cabecera-imagen-reticula { grid-template-columns: minmax(0, 6fr) minmax(0, 6fr); }
+  .cabecera-imagen h1 { max-width: 11ch; }
+}
+.cabecera-imagen .ventana { min-width: 0; }
+.cabecera-imagen .ventana-marco img { height: 100%; margin-top: 0; object-fit: cover; object-position: 50% 35%; }
